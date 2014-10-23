@@ -1,0 +1,4 @@
+.element {width:33.333%;
+	&:nth-child(2n+3) {clear: none;}
+	&:nth-child(3n+4) {clear: both;}
+}

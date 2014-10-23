@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<settings>
+  <tour>
+	<setting name="Name">Episode Style Tour</setting>
+	<setting name="xsl">tour1.tpl</setting>
+	<setting name="ThumbQ">100</setting>
+	<setting name="WaterLoc">play.png</setting>
+	<setting name="WaterHPos">center</setting>
+	<setting name="WaterVPos">middle</setting>
+	<setting name="NumPerPage">3</setting>
+	<setting name="NumPerPageThumb">24</setting>
+	<setting name="MaxPages">3</setting>
+	<setting name="OrderBy">rank asc</setting>
+	<setting name="OrderByThumbs">rank asc</setting>
+	<setting name="JoinUrl">join.php</setting>
+	<setting name="JoinUrlMobile">join.html</setting>
+	<setting name="ShowFuture">1</setting>
+	<setting name="ShowFutureNum">20</setting>
+	<setting name="CropConfig">1328-936-1-,594-460-0-,594-460-0-,594-460-0-,594-460-0-,468-352-0-,380-284-0-,600-430-0-</setting>
+	<setting name="NumClickLimit">200</setting>
+	<setting name="PaginateRecentUpdates">1</setting>
+	<setting name="LimitMisc">1</setting>
+	<setting name="seo_urls">1</setting>
+	<setting name="NumDVDs">0</setting>
+	<setting name="NumPopularModels">0</setting>
+	<setting name="NumFacebookPosts">0</setting>
+	<setting name="NumTwitterPosts">0</setting>
+	<setting name="NumNews">0</setting>
+	<setting name="NumPerPage_Mobile">3</setting>
+	<setting name="NumPerPageThumb_Mobile">24</setting>
+	<setting name="MaxPages_Mobile">3</setting>
+	<setting name="PaginateTourThumbs_Mobile">0</setting>
+	<setting name="PaginateRecentUpdates_Mobile">1</setting>
+	<setting name="MaxRecentUpdates_Mobile">0</setting>
+  </tour>
+  <text>
+    <category name="Categories and Keyword Tagging">
+      <item name="txtcategories">Categories:</item>
+    </category>
+    <category name="Comments">
+      <item name="txtcommentthankyou">&lt;html&gt;&lt;head&gt;&lt;meta http-equiv="refresh" content="#redirecttime#;url=#redirect#"/&gt;&lt;/head&gt;&lt;body&gt;Thank you for submitting your comment.  You will be redirected shortly.If you are not redirected, please click &lt;a href="#redirect#"&gt;here&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;</item>
+      <item name="txtcommentthankyouajax">Thanks for submitting a comment. It will appear shortly after it has been approved.</item>
+      <item name="txtcommenterror">&lt;html&gt;&lt;head&gt;&lt;meta http-equiv="refresh" content="#redirecttime#;url=#redirect#"/&gt;&lt;/head&gt;&lt;body&gt;The following problems were encountered submitting your comment:&lt;BR&gt;#error_br#&lt;p&gt;Please go back and try again&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</item>
+      <item name="txtcommenterrorajax">The following problems were encountered submitting your comment:
+#error#
+Please try again.</item>
+    </category>
+    <category name="Dates, Days and Months">
+      <item name="txt14days">14 days</item>
+      <item name="txt30days">30 days</item>
+      <item name="txt3days">3 days</item>
+      <item name="txt60days">60 days</item>
+      <item name="txt7days">7 days</item>
+      <item name="txt90days">90 days</item>
+      <item name="txtapril">April</item>
+      <item name="txtaugust">August</item>
+      <item name="txtdecember">December</item>
+      <item name="txtfebruary">February</item>
+      <item name="txtjanuary">January</item>
+      <item name="txtjuly">July</item>
+      <item name="txtjune">June</item>
+      <item name="txtmarch">March</item>
+      <item name="txtmay">May</item>
+      <item name="txtnovember">November</item>
+      <item name="txtoctober">October</item>
+      <item name="txtseptember">September</item>
+    </category>
+    <category name="DVDs">
+      <item name="txtdvds">DVDs</item>
+      <item name="txtdvd">DVD</item>
+      <item name="txtdvdtitle">DVDs</item>
+      <item name="txtscenesfrom">Scenes From</item>
+    </category>
+    <category name="Error Messages and Info Text">
+      <item name="txtnobonuscontent">We do not currently have any bonus content in this category.</item>
+      <item name="txtnopermission">Sorry, but you do not have permission to view these images.</item>
+      <item name="txtnothanks">(No Thanks)</item>
+      <item name="txtseparatewithcommas">Separate words with commas ,</item>
+    </category>
+    <category name="Footer">
+      <item name="contactemail">youremail@yoursite.com</item>
+      <item name="contactemailurl">mailto:youremail@yoursite.com</item>
+      <item name="contacttext">To contact us email</item>
+      <item name="subfootertext">Copyright Notice Text.</item>
+      <item name="usc2257">&lt;a href="/2257.html"&gt;18 U.S.C. 2257 Compliance statement&lt;/a&gt;</item>
+    </category>
+    <category name="Google Analytics Code">
+      <item name="googleanalyticscode"/>
+    </category>
+    <category name="Member Area Navigation">
+      <item name="navtxtaudiofiles">Audio</item>
+      <item name="navtxtblog">Blog</item>
+      <item name="navtxtbloglink">Blog</item>
+      <item name="navtxtbonussites">Sites</item>
+      <item name="navtxtdvds">DVDs</item>
+      <item name="navtxteroticstories">Stories</item>
+      <item name="navtxtextras">Extras</item>
+      <item name="navtxtlivecams">Live Cams and Shows</item>
+      <item name="navtxtlivecamslink">Live Cams</item>
+      <item name="navtxtmodels">Models</item>
+      <item name="navtxtmodelslink">Models</item>
+      <item name="navtxtmovies">Movies</item>
+      <item name="navtxtphotos">Photos</item>
+      <item name="navtxtupcoming">Upcoming Updates</item>
+      <item name="navtxtupcomingupdates">Upcoming Updates</item>
+      <item name="navtxtvideofeeds">Video Feeds</item>
+      <item name="navtxttwitter">Twitter</item>
+      <item name="navtxtfacebook">Facebook</item>
+    </category>
+    <category name="Miscellaneous/General Navigation Items">
+      <item name="txtnext">Next</item>
+      <item name="txtpage">Page</item>
+      <item name="txtprevious">Previous</item>
+      <item name="txtview">View</item>
+      <item name="txtvisit">Visit</item>
+      <item name="txtsite">Site:</item>
+    </category>
+    <category name="Model Page">
+      <item name="txtage">Age:</item>
+      <item name="txtastrologicalsign">Astrological Sign:</item>
+      <item name="txtfunfact">Fun Fact:</item>
+      <item name="txtheight">Height:</item>
+      <item name="txtmeasurements">Measurements:</item>
+    </category>
+    <category name="News/Blog">
+      <item name="txtpostedon">Posted on</item>
+      <item name="txtreadblog">Read Our Blog</item>
+      <item name="txtreadmore">Read More</item>
+      <item name="txttag">TAG</item>
+    </category>
+    <category name="Page Titles">
+      <item name="titletxtadvancedsearch">Advanced Search</item>
+      <item name="titletxtindex">Elevated X, Inc. cms Demo</item>
+      <item name="titletxtmodels">Models</item>
+      <item name="titletxtmovieindex">Movies</item>
+      <item name="titletxtnews">News/Blog</item>
+      <item name="titletxtphotogalleryindex">Photos</item>
+      <item name="titletxttagindex">Tag Index</item>
+    </category>
+    <category name="Photos and Movies">
+      <item name="txtdownload">Download</item>
+      <item name="txtfulldownloadmobile">Full Length Download</item>
+      <item name="txtplaymobile">Play Mobile</item>
+      <item name="txtindividualclips">Individual Clips</item>
+      <item name="txtlength">Length:</item>
+      <item name="txtlistentoaudio">Listen to Audio</item>
+      <item name="txtminutes">minute(s)</item>
+      <item name="txtMovies">Movies</item>
+      <item name="txtofvideo">of video</item>
+      <item name="txtPhoto">Photo</item>
+      <item name="txtphotogallery">Photo Gallery</item>
+      <item name="txtphotos">photos</item>
+      <item name="txtPhotos">Photos</item>
+      <item name="txtplay">Play</item>
+      <item name="txtplayfreetrailer">Play Free Trailer</item>
+      <item name="txtseconds">second(s)</item>
+      <item name="txtvidcaps">Video Caps</item>
+      <item name="txtnavvids">Movies</item>
+      <item name="txtnavcaps">Caps</item>
+      <item name="txtnavhighres">Photos</item>
+    </category>
+    <category name="Search and Sorting">
+      <item name="txtadvancedsearch">Advanced Search</item>
+      <item name="txtallcategories">All Categories</item>
+      <item name="txtallcontenttypes">All Content Types</item>
+      <item name="txtallthesewords">All these words</item>
+      <item name="txtanyofthesewords">Any of these words</item>
+      <item name="txtanytime">Anytime</item>
+      <item name="navtxtsearch">Search</item>
+      <item name="txtbutdontshowresults">But don't show results that have:</item>
+      <item name="txtcontainsmediatypes">That contains media types</item>
+      <item name="txtcontentaddedwithin">Content added within</item>
+      <item name="txtfindphotosetsandmovies">Find photo sets or movies that contain:</item>
+      <item name="txtlistresults">List Results</item>
+      <item name="txtnametitle">Name/Title</item>
+      <item name="txtonlyshowresultsfor">Only show results for:</item>
+      <item name="txtsearch">Search:</item>
+      <item name="txtsearchresultsfor">Search Results for</item>
+      <item name="txtthatmatchcategory">That match category keyword tags:</item>
+      <item name="txtthisexactword">This exact word or phrase</item>
+      <item name="txtgo">Go</item>
+    </category>
+    <category name="Section Titles">
+      <item name="txtlatestnetworkupdates">Latest Network Updates</item>
+      <item name="txtlatestupdates">Latest Updates</item>
+      <item name="txtmostpopular">Most Popular</item>
+      <item name="txtmostrecent">Most Recent</item>
+      <item name="txtnetworksites">Network Sites</item>
+      <item name="txtupcoming">Upcoming Updates</item>
+    </category>
+    <category name="Tour">
+      <item name="mobiletourtxtjoin1">Join and download every update straight to your phone!</item>
+      <item name="tourtxtjoin">Join Now</item>
+      <item name="tourtxtjoin1">Inside you'll have unlimited access to all our photos and videos.</item>
+      <item name="tourtxtjoin2">Download everything with no limits or restrictions!</item>
+      <item name="tourtxtjoin3">Like these updates? Just wait until you see what's inside!</item>
+      <item name="tourtxtmemberlogin">Members</item>
+      <item name="tourtxttitle">Elevated X, Inc. CMS Demo</item>
+      <item name="tourtxtnextpagemobile">Next Page</item>
+      <item name="tourtxtjoinmobile">Join Now</item>
+    </category>
+    <category name="Updates and Set/Update Info">
+      <item name="txtadded">Added</item>
+      <item name="txtcoming">Coming</item>
+      <item name="txtfeaturedmodels">Featuring:</item>
+      <item name="txtin">in</item>
+      <item name="txtinsidethisupdate">Inside This Update:</item>
+      <item name="txtof">of</item>
+      <item name="txtrating">Rating:</item>
+      <item name="txttitle">Title:</item>
+      <item name="txtupdates">Updates</item>
+      <item name="txtupdatesfeaturing">Updates Featuring</item>
+    </category>
+    <category name="Mobile">
+      <item name="txtviewfullsite">View Full Site</item>
+    </category>
+    <category name="Social Media">
+      <item name="txtlatestfacebook" plugin="facebook">Latest From Facebook</item>
+      <item name="txtlatesttweets" plugin="twitter">Latest Tweets</item>
+    </category>
+  <category name="Join Page">
+    <item name="txtalternativepayment">Alternative Payment</item>
+    <item name="txtbillingdetails">By clicking the button above, you certify that you are 18 years of age or older and agree to the &lt;a href=""&gt;Terms and Conditions&lt;/a&gt; of this purchase and have read our &lt;a href=""&gt;Privacy Policy.&lt;/a&gt;</item>
+    <item name="txtbillingfooter">All memberships renew automatically unless canceled.</item>
+    <item name="txtbillingsupport">For customer service please visit &lt;a href=""&gt;&lt;/a&gt;.</item>
+    <item name="txtdiscreet">DISCREET &amp; CONFIDENTIAL</item>
+    <item name="txtjoinpagepurchase">JOIN NOW</item>
+    <item name="txtmembershiptype">Membership Type</item>
+    <item name="txtpaybycheck">Pay By Check</item>
+    <item name="txtpaybycreditcard">Pay By Credit Card</item>
+    <item name="txtpaybyphone">Pay By Phone</item>
+    <item name="txtpaymentoption1">1 Month - $19.95</item>
+    <item name="txtpaymentoption2">3 Days - $2.95</item>
+    <item name="txtpaymenttype">Payment Type</item>
+    <item name="txtsecure">100% SECURE</item>
+  </category>
+  <category name="Splash Page - Age Warning Popup">
+    <item name="splashtxtadultsonly">This site is for adults only!</item>
+    <item name="splashtxtdisagree">I DISAGREE - </item>
+    <item name="splashtxtenter">I AGREE - ENTER</item>
+    <item name="splashtxtexit">EXIT</item>
+    <item name="splashtxtheading">This web site contains sexually explicit material:</item>
+    <item name="splashtxtmessage">PASTE YOUR AGE CONSENT AGREEMENT TEXT HERE.</item>
+    <item name="splashtxtwarning">WARNING -</item>
+  </category>
+  <category name="Poll">
+    <item name="txtpollresults">Poll results:</item>
+    <item name="txtsubmitvote">Submit Vote</item>
+    <item name="txtthisweekspoll">This Week's Poll</item>
+    <item name="txttotalvotes">total votes</item>
+    <item name="txtquestion">Question</item>
+    <item name="titletxtpolls">Polls</item>
+    <item name="txtpolls">Polls</item>
+  </category>
+  </text>
+</settings>

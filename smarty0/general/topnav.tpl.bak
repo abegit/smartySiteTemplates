@@ -1,0 +1,118 @@
+
+
+<div class="site_navbar_wrapper">
+
+<div id="site_navbar">
+<!-- <a href="./" {if $item=='home' } class="hilite" {/if} >{$templateconf.navtxthome}</a> -->
+
+{foreach from=$categories item=cat}
+{foreach from=$cat.cats.cat item=cat2 }
+{if ($cat2.Title[0] == 'Models') || ($cat2.MainLanguage_Title[0] =='Models' )}
+	{assign var="modelsCat" value=$cat2.Id[0]}
+	{assign var="modelsNode" value=$cat2}
+{/if}
+{if ($cat2.Title[0] == 'Photos') || ($cat2.MainLanguage_Title[0] =='Photos' )}
+	{assign var="photosCat" value=$cat2.Id[0]}
+	{assign var="photosNode" value=$cat2}
+{/if}
+{if ($cat2.Title[0] == 'Movies') || ($cat2.MainLanguage_Title[0] =='Movies' )}
+	{assign var="moviesCat" value=$cat2.Id[0]}
+	{assign var="moviesNode" value=$cat2}
+{/if}
+{if ($cat2.Title[0] == 'Episodes') || ($cat2.MainLanguage_Title[0] =='Episodes' )}
+	{assign var="episodesCat" value=$cat2.Id[0]}
+	{assign var="episodesNode" value=$cat2}
+{/if}
+{if ($cat2.Title[0] == 'Clips') || ($cat2.MainLanguage_Title[0] =='Clips' )}
+	{assign var="clipsCat" value=$cat2.Id[0]}
+	{assign var="clipsNode" value=$cat2}
+{/if}
+{/foreach}
+{/foreach}
+
+<!-- {if isset($episodesCat)}
+<a href="{include file="$spath/general/pg_category.tpl" id=$episodesCat seoname=$photosNode.SEOname[0] item=$episodesNode}" {if $item=='episodes' } class="hilite" {/if} >{$templateconf.navtxtepisodes}</a>
+{/if}
+
+{if isset($clipsCat)}
+<a href="{include file="$spath/general/pg_category.tpl" id=$clipsCat seoname=$photosNode.SEOname[0] item=$clipsNode}" {if $item=='clips' } class="hilite" {/if} >{$templateconf.navtxtclips}</a>
+{/if} -->
+
+<!-- {if isset($photosCat)}
+<a href="{include file="$spath/general/pg_category.tpl" id=$photosCat seoname=$photosNode.SEOname[0] item=$photosNode}" {if $item=='photos' } class="hilite" {/if} >{$templateconf.navtxtphotos}</a>
+{/if} -->
+
+<!--
+{if isset($moviesCat)}
+<a href="{include file="$spath/general/pg_category.tpl" id=$moviesCat seoname=$moviesNode.SEOname[0] item=$moviesNode}" {if $item=='movies' } class="hilite" {/if}>{$templateconf.navtxtmovies}</a>
+{/if}
+
+
+{if isset($modelsCat) }
+<a href="category.php?id=6&page=1&s=n&" {if $item=='models' } class="hilite" {/if} >{$templateconf.navtxtmodels}</a>
+{/if}-->
+
+
+
+<!-- 
+<a href="pages.php?id=drsuzytv2" {if $item=='drsuzytv' } class="hilite" {/if} >{$templateconf.navtxtdrsuzytv}</a> -->
+
+
+<!--
+<a href="pages.php?id=listen" {if $item=='listen' } class="hilite" {/if} >{$templateconf.navtxtlisten}</a>
+ {if in_array('dvdasc',$pluginsdata.plugins) && $pluginsdata.enabled.dvdasc == 1 }
+
+
+<a href="{include file="$spath/general/pg_dvds.tpl"}" {if $item=='dvds' } class="hilite" {/if}>{$templateconf.navtxtdvds}</a>
+
+{/if} -->
+
+
+<!--
+{if in_array('bonus',$pluginsdata.plugins) && $pluginsdata.enabled.bonus == 1 }
+
+
+<a href="{include file="$spath/general/pg_bonus.tpl" fc='1'}" {if $item=='bonussites' } class="hilite" {/if} >{$templateconf.navtxtbonussites}</a>
+
+
+
+<a href="{include file="$spath/general/pg_bonus.tpl" fc='2'}" {if $item=='bonusfeeds' } class="hilite" {/if} >{$templateconf.navtxtvideofeeds}</a>
+
+
+
+<a href="{include file="$spath/general/pg_bonus.tpl" fc='4'}" {if $item=='audiofiles' } class="hilite" {/if} >{$templateconf.navtxtaudiofiles}</a>
+
+
+
+<a href="{include file="$spath/general/pg_bonus.tpl" fc='3'}" {if $item=='bonusstories' } class="hilite" {/if} >{$templateconf.navtxteroticstories}</a>
+
+{/if}
+-- 
+
+>
+
+
+
+{if in_array('faq',$pluginsdata.plugins) && $pluginsdata.enabled.faq == 1 }
+
+<a href="{include file="$spath/general/pg_faq.tpl"}" {if $item=='faq' } class="hilite" {/if} >{$templateconf.navtxtfaqs}</a>
+{/if}
+
+
+
+<!--This displays the Search Table-->
+
+
+</div>
+
+
+
+</div>
+{if in_array('contentasc',$pluginsdata.plugins) && $pluginsdata.enabled.contentasc == 1}
+<!--Model A-Z Links-->
+<div align="center">{include file="$spath/general/a-zlinks.tpl" zone=1 static=0}
+<div id="search_bar">
+{include file="$spath/general/searchbar.tpl"}
+</div>
+</div>
+{/if}
