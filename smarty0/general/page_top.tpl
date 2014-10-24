@@ -168,6 +168,11 @@
 <script type="text/javascript" src="js/jquery-ui.custom.min.js"></script>
 <link rel="stylesheet" type="text/css" href="./images/jqueryui/jquery-ui.custom.min.css" />
 
+<style>
+	{literal}
+	.iosSlider, .iosSlider .slider .item  {height: 550px !important; width: 1000px !important;}
+	{/literal}
+</style>
 
 
 <script>
