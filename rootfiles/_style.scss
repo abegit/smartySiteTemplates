@@ -1975,11 +1975,9 @@ a.update_title:hover, .update_title a.model_title:hover {
 
   /*radiosuzy1*/
   .cp-container {
-    background: url("/img/radiosuzy1.jpg") repeat scroll 0 0 / contain rgba(0, 0, 0, 0);
-    height: 324px;
-    padding-left: 505px;
-    padding-top: 75px;
-    width: 810px;
+    height: 200px;
+    width: 200px;
+    margin:0 auto;
 }
 
 
@@ -2147,7 +2145,6 @@ a.slidesjs-previous {
   margin: 0 auto; }
 
 
-#cp_container_1, #newcss {display: none;}
 
 @import 'join';
 
