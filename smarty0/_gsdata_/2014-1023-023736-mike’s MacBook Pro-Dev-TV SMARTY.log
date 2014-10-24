@@ -1,0 +1,16 @@
+2014-10-23 02:37:37: -- Dev-TV SMARTY: ANALYSIS started by User on 'mike’s MacBook Pro' (GoodSync 4.3.7.0)
+2014-10-23 02:37:37: /code/dsbase/dsbtv/smarty0 =NoPropDels=> ftp://cs2055.mojohost.com/bonobodesigns.com/public_html/cms_admin/smarty/smarty0, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-10-23 02:37:37: L: Files: 314 (excluded 0). Folders: 32 (excluded 1). /dev/disk0s2 HFS, Free: 26.8 GB, Total: 465.0 GB
+2014-10-23 02:37:52: R: Files: 314 (excluded 0). Folders: 32 (excluded 1). FTP: FTP Server ready.
+2014-10-23 02:37:52: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-10-23 02:37:52: Left to Right: Copy File: 2 
+2014-10-23 02:37:52: -- Analysis Completed. Time 00:00:16, Speed: 21 files/s
+2014-10-23 02:37:52: 
+2014-10-23 02:37:57: == Dev-TV SMARTY: SYNC started by User on 'mike’s MacBook Pro'
+2014-10-23 02:37:57: /code/dsbase/dsbtv/smarty0 =NoPropDels=> ftp://cs2055.mojohost.com/bonobodesigns.com/public_html/cms_admin/smarty/smarty0, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-10-23 02:37:59: Copy Over '/code/dsbase/dsbtv/smarty0/general/page_top.tpl' -> 'ftp://cs2055.mojohost.com/bonobodesigns.com/public_html/cms_admin/smarty/smarty0/general/page_top.tpl'
+2014-10-23 02:38:00: Copy Over '/code/dsbase/dsbtv/smarty0/general/splash.tpl' -> 'ftp://cs2055.mojohost.com/bonobodesigns.com/public_html/cms_admin/smarty/smarty0/general/splash.tpl'
+2014-10-23 02:38:01: Save State File ftp://cs2055.mojohost.com/bonobodesigns.com/public_html/cms_admin/smarty/smarty0/_gsdata_/_file_state_v4._gs
+2014-10-23 02:38:02: Items Synced OK: 2, Errors: 0
+2014-10-23 02:38:02: == Sync Completed. Time: 00:00:06, Speed: 4.3 KB/s (23.5 KB/s)
+2014-10-23 02:38:02: 

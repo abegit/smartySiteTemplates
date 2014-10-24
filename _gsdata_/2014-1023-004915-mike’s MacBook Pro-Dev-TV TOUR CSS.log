@@ -1,0 +1,95 @@
+2014-10-23 00:49:16: -- Dev-TV TOUR CSS: ANALYSIS started by User on 'mike’s MacBook Pro' (GoodSync 4.3.7.0)
+2014-10-23 00:49:16: /code/dsbase/dsbtv =NoPropDels=> ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-10-23 00:49:16: L: Files: 374 (excluded 6). Folders: 4 (excluded 8). /dev/disk0s2 HFS, Free: 26.8 GB, Total: 465.0 GB
+2014-10-23 00:49:25: R: Files: 345 (excluded 0). Folders: 19 (excluded 2). FTP: FTP Server ready.
+2014-10-23 00:49:25: Do Not Propagate Deletions: 1-way deletions reverted: 57
+2014-10-23 00:49:26: /galleries/20120107bonnierotten19.jpg: Warning: Older file to replace Newer file
+2014-10-23 00:49:26: /galleries/20120107bonnierotten2.jpg: Warning: Older file to replace Newer file
+2014-10-23 00:49:26: /galleries/20120107bonnierotten3.jpg: Warning: Older file to replace Newer file
+2014-10-23 00:49:26: /galleries/20120107bonnierotten4.jpg: Warning: Older file to replace Newer file
+2014-10-23 00:49:26: /galleries/20120107bonnierotten5.jpg: Warning: Older file to replace Newer file
+2014-10-23 00:49:26: /galleries/20120107bonnierotten6.jpg: Warning: Older file to replace Newer file
+2014-10-23 00:49:26: Changes: 279, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-10-23 00:49:26: Left to Right: Copy File: 279 
+2014-10-23 00:49:26: -- Analysis Completed. Time 00:00:11, Speed: 59 files/s
+2014-10-23 00:49:26: 
+2014-10-23 00:50:02: == Dev-TV TOUR CSS: SYNC started by User on 'mike’s MacBook Pro'
+2014-10-23 00:50:02: /code/dsbase/dsbtv =NoPropDels=> ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-10-23 00:50:04: Copy Over '/code/dsbase/dsbtv/_style.scss' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/_style.scss'
+2014-10-23 00:50:05: Copy Over '/code/dsbase/dsbtv/galleries/20120107bonnierotten19.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20120107bonnierotten19.jpg'
+2014-10-23 00:50:07: Copy Over '/code/dsbase/dsbtv/galleries/20120107bonnierotten2.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20120107bonnierotten2.jpg'
+2014-10-23 00:50:08: Copy Over '/code/dsbase/dsbtv/galleries/20120107bonnierotten3.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20120107bonnierotten3.jpg'
+2014-10-23 00:50:10: Copy Over '/code/dsbase/dsbtv/galleries/20120107bonnierotten4.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20120107bonnierotten4.jpg'
+2014-10-23 00:50:11: Copy Over '/code/dsbase/dsbtv/galleries/20120107bonnierotten5.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20120107bonnierotten5.jpg'
+2014-10-23 00:50:13: Copy Over '/code/dsbase/dsbtv/galleries/20120107bonnierotten6.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20120107bonnierotten6.jpg'
+2014-10-23 00:50:14: Copy New '/code/dsbase/dsbtv/galleries/20120107bonnierotten7.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20120107bonnierotten7.jpg'
+2014-10-23 00:50:15: Copy New '/code/dsbase/dsbtv/galleries/20120107bonnierotten8.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20120107bonnierotten8.jpg'
+2014-10-23 00:50:16: Copy New '/code/dsbase/dsbtv/galleries/20120107bonnierotten9.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20120107bonnierotten9.jpg'
+2014-10-23 00:50:18: Copy New '/code/dsbase/dsbtv/galleries/20121124radiosuzy1jux1.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20121124radiosuzy1jux1.jpg'
+2014-10-23 00:50:19: Copy New '/code/dsbase/dsbtv/galleries/20121124radiosuzy1jux2.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20121124radiosuzy1jux2.jpg'
+2014-10-23 00:50:21: Copy New '/code/dsbase/dsbtv/galleries/20121124radiosuzy1jux3.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20121124radiosuzy1jux3.jpg'
+2014-10-23 00:50:22: Copy New '/code/dsbase/dsbtv/galleries/20121124radiosuzy1jux4.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20121124radiosuzy1jux4.jpg'
+2014-10-23 00:50:24: Copy New '/code/dsbase/dsbtv/galleries/20121124radiosuzy1jux5.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20121124radiosuzy1jux5.jpg'
+2014-10-23 00:50:25: Copy New '/code/dsbase/dsbtv/galleries/20121124radiosuzy1jux6.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20121124radiosuzy1jux6.jpg'
+2014-10-23 00:50:27: Copy New '/code/dsbase/dsbtv/galleries/20121124radiosuzy1jux7.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20121124radiosuzy1jux7.jpg'
+2014-10-23 00:50:28: Copy New '/code/dsbase/dsbtv/galleries/20121124radiosuzy1jux8.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20121124radiosuzy1jux8.jpg'
+2014-10-23 00:50:30: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_01.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_01.jpg'
+2014-10-23 00:50:32: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_02.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_02.jpg'
+2014-10-23 00:50:34: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_03.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_03.jpg'
+2014-10-23 00:50:36: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_04.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_04.jpg'
+2014-10-23 00:50:37: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_05.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_05.jpg'
+2014-10-23 00:50:39: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_06.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_06.jpg'
+2014-10-23 00:50:41: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_07.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_07.jpg'
+2014-10-23 00:50:43: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_08.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_08.jpg'
+2014-10-23 00:50:45: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_09.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_09.jpg'
+2014-10-23 00:50:47: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_10.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_10.jpg'
+2014-10-23 00:50:49: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_11.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_11.jpg'
+2014-10-23 00:50:51: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_12.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_12.jpg'
+2014-10-23 00:50:53: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_13.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_13.jpg'
+2014-10-23 00:50:55: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_14.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_14.jpg'
+2014-10-23 00:50:57: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_15.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_15.jpg'
+2014-10-23 00:50:59: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_16.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_16.jpg'
+2014-10-23 00:51:01: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_17.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_17.jpg'
+2014-10-23 00:51:02: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_18.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_18.jpg'
+2014-10-23 00:51:04: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_19.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_19.jpg'
+2014-10-23 00:51:06: Copy New '/code/dsbase/dsbtv/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_20.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130216_Valentine_Lupercalia_radiosuzy_Jux_20.jpg'
+2014-10-23 00:51:08: Copy New '/code/dsbase/dsbtv/galleries/20130427_DrpBombs_01.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130427_DrpBombs_01.jpg'
+2014-10-23 00:51:09: Copy New '/code/dsbase/dsbtv/galleries/20130427_DrpBombs_02.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130427_DrpBombs_02.jpg'
+2014-10-23 00:51:10: Copy New '/code/dsbase/dsbtv/galleries/20130427_DrpBombs_03.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130427_DrpBombs_03.jpg'
+2014-10-23 00:51:12: Copy New '/code/dsbase/dsbtv/galleries/20130427_DrpBombs_04.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130427_DrpBombs_04.jpg'
+2014-10-23 00:51:13: Copy New '/code/dsbase/dsbtv/galleries/20130427_DrpBombs_05.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130427_DrpBombs_05.jpg'
+2014-10-23 00:51:14: Copy New '/code/dsbase/dsbtv/galleries/20130427_DrpBombs_06.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130427_DrpBombs_06.jpg'
+2014-10-23 00:51:15: Copy New '/code/dsbase/dsbtv/galleries/20130427_DrpBombs_07.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130427_DrpBombs_07.jpg'
+2014-10-23 00:51:17: Copy New '/code/dsbase/dsbtv/galleries/20130427_DrpBombs_08.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130427_DrpBombs_08.jpg'
+2014-10-23 00:51:18: Copy New '/code/dsbase/dsbtv/galleries/20130427_DrpBombs_09.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130427_DrpBombs_09.jpg'
+2014-10-23 00:51:19: Copy New '/code/dsbase/dsbtv/galleries/20130427_DrpBombs_10.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130427_DrpBombs_10.jpg'
+2014-10-23 00:51:20: Copy New '/code/dsbase/dsbtv/galleries/20130427_DrpBombs_11.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130427_DrpBombs_11.jpg'
+2014-10-23 00:51:21: Copy New '/code/dsbase/dsbtv/galleries/20130427_DrpBombs_12.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130427_DrpBombs_12.jpg'
+2014-10-23 00:51:23: Copy New '/code/dsbase/dsbtv/galleries/20130427_DrpBombs_13.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130427_DrpBombs_13.jpg'
+2014-10-23 00:51:24: Copy New '/code/dsbase/dsbtv/galleries/20130427_DrpBombs_14.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130427_DrpBombs_14.jpg'
+2014-10-23 00:51:26: Copy New '/code/dsbase/dsbtv/galleries/20130511_Masturbation_Liberation_01.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130511_Masturbation_Liberation_01.jpg'
+2014-10-23 00:51:27: Copy New '/code/dsbase/dsbtv/galleries/20130511_Masturbation_Liberation_02.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130511_Masturbation_Liberation_02.jpg'
+2014-10-23 00:51:29: Copy New '/code/dsbase/dsbtv/galleries/20130511_Masturbation_Liberation_03.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130511_Masturbation_Liberation_03.jpg'
+2014-10-23 00:51:30: Copy New '/code/dsbase/dsbtv/galleries/20130511_Masturbation_Liberation_04.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130511_Masturbation_Liberation_04.jpg'
+2014-10-23 00:51:32: Copy New '/code/dsbase/dsbtv/galleries/20130511_Masturbation_Liberation_05.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130511_Masturbation_Liberation_05.jpg'
+2014-10-23 00:51:33: Copy New '/code/dsbase/dsbtv/galleries/20130511_Masturbation_Liberation_06.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130511_Masturbation_Liberation_06.jpg'
+2014-10-23 00:51:35: Copy New '/code/dsbase/dsbtv/galleries/20130511_Masturbation_Liberation_07.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130511_Masturbation_Liberation_07.jpg'
+2014-10-23 00:51:36: Copy New '/code/dsbase/dsbtv/galleries/20130511_Masturbation_Liberation_08.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130511_Masturbation_Liberation_08.jpg'
+2014-10-23 00:51:38: Copy New '/code/dsbase/dsbtv/galleries/20130511_Masturbation_Liberation_09.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130511_Masturbation_Liberation_09.jpg'
+2014-10-23 00:51:40: Copy New '/code/dsbase/dsbtv/galleries/20130511_Masturbation_Liberation_10.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130511_Masturbation_Liberation_10.jpg'
+2014-10-23 00:51:41: Copy New '/code/dsbase/dsbtv/galleries/20130511_Masturbation_Liberation_11.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130511_Masturbation_Liberation_11.jpg'
+2014-10-23 00:51:43: Copy New '/code/dsbase/dsbtv/galleries/20130511_Masturbation_Liberation_12.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130511_Masturbation_Liberation_12.jpg'
+2014-10-23 00:51:45: Copy New '/code/dsbase/dsbtv/galleries/20130511_Masturbation_Liberation_13.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130511_Masturbation_Liberation_13.jpg'
+2014-10-23 00:51:46: Copy New '/code/dsbase/dsbtv/galleries/20130511_Masturbation_Liberation_14.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130511_Masturbation_Liberation_14.jpg'
+2014-10-23 00:51:47: Copy New '/code/dsbase/dsbtv/galleries/20130511_Masturbation_Liberation_15.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130511_Masturbation_Liberation_15.jpg'
+2014-10-23 00:51:49: Copy New '/code/dsbase/dsbtv/galleries/20130518_Mast_Expl_01.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130518_Mast_Expl_01.jpg'
+2014-10-23 00:51:51: Copy New '/code/dsbase/dsbtv/galleries/20130518_Mast_Expl_02.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130518_Mast_Expl_02.jpg'
+2014-10-23 00:51:53: Copy New '/code/dsbase/dsbtv/galleries/20130518_Mast_Expl_03.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130518_Mast_Expl_03.jpg'
+2014-10-23 00:51:55: Copy New '/code/dsbase/dsbtv/galleries/20130518_Mast_Expl_04.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130518_Mast_Expl_04.jpg'
+2014-10-23 00:51:57: Copy New '/code/dsbase/dsbtv/galleries/20130518_Mast_Expl_05.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130518_Mast_Expl_05.jpg'
+2014-10-23 00:51:58: Copy New '/code/dsbase/dsbtv/galleries/20130518_Mast_Expl_06.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130518_Mast_Expl_06.jpg'
+2014-10-23 00:52:00: Copy New '/code/dsbase/dsbtv/galleries/20130518_Mast_Expl_07.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/galleries/20130518_Mast_Expl_07.jpg'
+- ERROR: Cannot rename temp file to destination file: stopped by User Request
+2014-10-23 00:52:00: Save State File ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/_gsdata_/_file_state_v4._gs
+2014-10-23 00:52:01: stopped by User Request
+2014-10-23 00:52:01: 

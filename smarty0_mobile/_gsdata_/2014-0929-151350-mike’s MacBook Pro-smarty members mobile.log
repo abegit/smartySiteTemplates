@@ -1,0 +1,12 @@
+2014-09-29 15:13:50: -- smarty members mobile: ANALYSIS started by On File Change Incremental on 'mike’s MacBook Pro' (GoodSync 4.3.7.0)
+2014-09-29 15:13:50: /code/hey/tv styles/smarty0_mobile =NoPropDels=> ftp://cs2055.mojohost.com/bonobodesigns.com/public_html/cms_admin/smarty/smarty0_mobile, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-09-29 15:13:50: Change in: /code/hey/tv styles/smarty0_mobile/drsuztytv.tpl
+2014-09-29 15:13:51: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-09-29 15:13:51: Left to Right: Copy File: 1 
+2014-09-29 15:13:51: -- Analysis Completed. Time 00:00:03, Speed: 41 files/s
+2014-09-29 15:13:51: == smarty members mobile: SYNC started by On File Change Incremental on 'mike’s MacBook Pro'
+2014-09-29 15:13:51: /code/hey/tv styles/smarty0_mobile =NoPropDels=> ftp://cs2055.mojohost.com/bonobodesigns.com/public_html/cms_admin/smarty/smarty0_mobile, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-09-29 15:13:52: Copy Over '/code/hey/tv styles/smarty0_mobile/drsuztytv.tpl' -> 'ftp://cs2055.mojohost.com/bonobodesigns.com/public_html/cms_admin/smarty/smarty0_mobile/drsuztytv.tpl'
+2014-09-29 15:13:53: Items Synced OK: 1, Errors: 0
+2014-09-29 15:13:53: == Sync Completed. Time: 00:00:02, Speed: 486.0/s (3.8 KB/s)
+2014-09-29 15:13:53: 

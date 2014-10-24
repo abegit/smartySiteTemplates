@@ -1,0 +1,28 @@
+2014-10-23 00:57:13: -- Dev-TV CSS: ANALYSIS started by On File Change 1st Full Analyze on 'mike’s MacBook Pro' (GoodSync 4.3.7.0)
+2014-10-23 00:57:13: /code/dsbase/dsbtv =NoPropDels=> ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-10-23 00:57:13: L: Files: 376 (excluded 4). Folders: 4 (excluded 8). /dev/disk0s2 HFS, Free: 26.8 GB, Total: 465.0 GB
+2014-10-23 00:57:31: R: Files: 448 (excluded 0). Folders: 35 (excluded 3). FTP: FTP Server ready.
+2014-10-23 00:57:31: Do Not Propagate Deletions: 1-way deletions reverted: 57
+2014-10-23 00:57:31: Changes: 352, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-10-23 00:57:31: Left to Right: Copy File: 352 
+2014-10-23 00:57:31: -- Analysis Completed. Time 00:00:19, Speed: 44 files/s
+2014-10-23 00:57:31: == Dev-TV CSS: SYNC started by On File Change 1st Full Analyze on 'mike’s MacBook Pro'
+2014-10-23 00:57:31: /code/dsbase/dsbtv =NoPropDels=> ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-10-23 00:57:31: Create Folder 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members/galleries'
+2014-10-23 00:57:32: Copy Over '/code/dsbase/dsbtv/_style.scss' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members/_style.scss'
+2014-10-23 00:57:33: Copy New '/code/dsbase/dsbtv/galleries/042013_420PSpot_01.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members/galleries/042013_420PSpot_01.jpg'
+2014-10-23 00:57:35: Copy New '/code/dsbase/dsbtv/galleries/042013_420PSpot_02.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members/galleries/042013_420PSpot_02.jpg'
+2014-10-23 00:57:36: Copy New '/code/dsbase/dsbtv/galleries/042013_420PSpot_03.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members/galleries/042013_420PSpot_03.jpg'
+2014-10-23 00:57:38: Copy New '/code/dsbase/dsbtv/galleries/042013_420PSpot_04.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members/galleries/042013_420PSpot_04.jpg'
+2014-10-23 00:57:39: Copy New '/code/dsbase/dsbtv/galleries/042013_420PSpot_05.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members/galleries/042013_420PSpot_05.jpg'
+2014-10-23 00:57:40: Copy New '/code/dsbase/dsbtv/galleries/042013_420PSpot_06.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members/galleries/042013_420PSpot_06.jpg'
+2014-10-23 00:57:42: Copy New '/code/dsbase/dsbtv/galleries/042013_420PSpot_07.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members/galleries/042013_420PSpot_07.jpg'
+2014-10-23 00:57:43: Copy New '/code/dsbase/dsbtv/galleries/042013_420PSpot_08.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members/galleries/042013_420PSpot_08.jpg'
+2014-10-23 00:57:45: Copy New '/code/dsbase/dsbtv/galleries/042013_420PSpot_09.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members/galleries/042013_420PSpot_09.jpg'
+2014-10-23 00:57:47: Copy New '/code/dsbase/dsbtv/galleries/042013_420PSpot_10.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members/galleries/042013_420PSpot_10.jpg'
+2014-10-23 00:57:48: Copy New '/code/dsbase/dsbtv/galleries/042013_420PSpot_11.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members/galleries/042013_420PSpot_11.jpg'
+- ERROR: Cannot rename temp file to destination file: stopped by User Request
+2014-10-23 00:57:48: Save State File ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members/members/_gsdata_/_file_state_v4._gs
+2014-10-23 00:57:49: Save State File ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/members/_gsdata_/_file_state_v4._gs
+2014-10-23 00:57:50: stopped by User Request
+2014-10-23 00:57:50: 

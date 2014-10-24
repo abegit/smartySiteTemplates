@@ -1,0 +1,19 @@
+2014-10-22 23:50:43: -- Dev-TV TOUR CSS: ANALYSIS started by User on 'mike’s MacBook Pro' (GoodSync 4.3.7.0)
+2014-10-22 23:50:43: /code/dsbase/dsbtv =NoPropDels=> ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-10-22 23:50:43: L: Files: 30 (excluded 5). Folders: 4 (excluded 8). /dev/disk0s2 HFS, Free: 26.9 GB, Total: 465.0 GB
+2014-10-22 23:50:52: R: Files: 267 (excluded 0). Folders: 18 (excluded 1). FTP: FTP Server ready.
+2014-10-22 23:50:52: Do Not Propagate Deletions: 1-way deletions reverted: 57
+2014-10-22 23:50:52: Changes: 8, Conflicts: 0, CopyTime: 0, CopyState: 0/1, Errors: 0
+2014-10-22 23:50:52: Left to Right: Copy File: 8 
+2014-10-22 23:50:52: -- Analysis Completed. Time 00:00:10, Speed: 30 files/s
+2014-10-22 23:50:52: 
+2014-10-22 23:51:28: == Dev-TV TOUR CSS: SYNC started by User on 'mike’s MacBook Pro'
+2014-10-22 23:51:28: /code/dsbase/dsbtv =NoPropDels=> ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-10-22 23:51:28: Delete Analysis results of the jobs that intersect with this job: Dev-TV CSS
+2014-10-22 23:51:31: Copy Over '/code/dsbase/dsbtv/_style.scss' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/_style.scss'
+2014-10-22 23:51:32: Copy Over '/code/dsbase/dsbtv/style.css' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/style.css'
+2014-10-22 23:51:33: Copy Over '/code/dsbase/dsbtv/style.css.map' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/style.css.map'
+2014-10-22 23:51:34: Save State File ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/_gsdata_/_file_state_v4._gs
+2014-10-22 23:51:35: Items Synced OK: 4, Errors: 0
+2014-10-22 23:51:35: == Sync Completed. Time: 00:00:08, Speed: 23.5 KB/s (1.2 KB/s)
+2014-10-22 23:51:35: 

@@ -1,0 +1,16 @@
+2014-09-22 22:34:40: -- smarty members mobile: ANALYSIS started by User on 'mike’s MacBook Pro' (GoodSync 4.3.7.0)
+2014-09-22 22:34:40: /code/hey/tv styles/smarty0_mobile =NoPropDels=> ftp://cs2055.mojohost.com/bonobodesigns.com/public_html/cms_admin/smarty/smarty0_mobile, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-09-22 22:34:40: L: Files: 106 (excluded 0). Folders: 14 (excluded 1). /dev/disk0s2 HFS, Free: 46.5 GB, Total: 465.0 GB
+2014-09-22 22:34:47: R: Files: 106 (excluded 0). Folders: 14 (excluded 1). FTP: FTP Server ready.
+2014-09-22 22:34:47: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-09-22 22:34:47: Left to Right: Copy File: 2 
+2014-09-22 22:34:47: -- Analysis Completed. Time 00:00:08, Speed: 15 files/s
+2014-09-22 22:34:47: 
+2014-09-22 22:34:53: == smarty members mobile: SYNC started by User on 'mike’s MacBook Pro'
+2014-09-22 22:34:53: /code/hey/tv styles/smarty0_mobile =NoPropDels=> ftp://cs2055.mojohost.com/bonobodesigns.com/public_html/cms_admin/smarty/smarty0_mobile, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-09-22 22:34:55: Copy Over '/code/hey/tv styles/smarty0_mobile/config/static.tour.conf' -> 'ftp://cs2055.mojohost.com/bonobodesigns.com/public_html/cms_admin/smarty/smarty0_mobile/config/static.tour.conf'
+2014-09-22 22:34:56: Copy Over '/code/hey/tv styles/smarty0_mobile/general/page_top.tpl' -> 'ftp://cs2055.mojohost.com/bonobodesigns.com/public_html/cms_admin/smarty/smarty0_mobile/general/page_top.tpl'
+2014-09-22 22:34:57: Save State File ftp://cs2055.mojohost.com/bonobodesigns.com/public_html/cms_admin/smarty/smarty0_mobile/_gsdata_/_file_state_v4._gs
+2014-09-22 22:34:57: Items Synced OK: 2, Errors: 0
+2014-09-22 22:34:57: == Sync Completed. Time: 00:00:06, Speed: 1.3 KB/s (2.1 KB/s)
+2014-09-22 22:34:57: 

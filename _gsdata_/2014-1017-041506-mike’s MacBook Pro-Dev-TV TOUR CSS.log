@@ -1,0 +1,25 @@
+2014-10-17 04:15:07: -- Dev-TV TOUR CSS: ANALYSIS started by User on 'mike’s MacBook Pro' (GoodSync 4.3.7.0)
+2014-10-17 04:15:07: /code/dsbase/dsbtv =NoPropDels=> ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-10-17 04:15:07: L: Files: 1384 (excluded 2). Folders: 126 (excluded 6). /dev/disk0s2 HFS, Free: 31.5 GB, Total: 465.0 GB
+2014-10-17 04:15:21: R: Files: 259 (excluded 0). Folders: 18 (excluded 1). FTP: FTP Server ready.
+2014-10-17 04:15:21: Do Not Propagate Deletions: 1-way deletions reverted: 46
+2014-10-17 04:15:21: Changes: 1490, Conflicts: 0, CopyTime: 0, CopyState: 29/0, Errors: 0
+2014-10-17 04:15:21: Left to Right: Copy File: 1490 Copy State: 29 
+2014-10-17 04:15:21: -- Analysis Completed. Time 00:00:15, Speed: 118 files/s
+2014-10-17 04:15:21: 
+2014-10-17 04:17:29: == Dev-TV TOUR CSS: SYNC started by User on 'mike’s MacBook Pro'
+2014-10-17 04:17:29: /code/dsbase/dsbtv =NoPropDels=> ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-10-17 04:17:29: Delete Analysis results of the jobs that intersect with this job: Dev-smarty main, Dev-TV CSS
+2014-10-17 04:17:33: Copy New '/code/dsbase/dsbtv/_mobi.scss' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/_mobi.scss'
+2014-10-17 04:17:34: Copy New '/code/dsbase/dsbtv/_mobilestyle.scss' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/_mobilestyle.scss'
+2014-10-17 04:17:35: Copy New '/code/dsbase/dsbtv/_ogstyle.scss' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/_ogstyle.scss'
+2014-10-17 04:17:37: Copy Over '/code/dsbase/dsbtv/_style.scss' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/_style.scss'
+2014-10-17 04:17:39: Copy New '/code/dsbase/dsbtv/img/header_contact.jpg' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/img/header_contact.jpg'
+2014-10-17 04:17:40: Copy New '/code/dsbase/dsbtv/mobi.css' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/mobi.css'
+2014-10-17 04:17:42: Copy New '/code/dsbase/dsbtv/mobi.css.map' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/mobi.css.map'
+2014-10-17 04:17:43: Copy Over '/code/dsbase/dsbtv/style.css' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/style.css'
+2014-10-17 04:17:44: Copy New '/code/dsbase/dsbtv/style.css.map' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/style.css.map'
+2014-10-17 04:17:45: Save State File ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/_gsdata_/_file_state_v4._gs
+2014-10-17 04:17:46: Items Synced OK: 16, Errors: 0
+2014-10-17 04:17:46: == Sync Completed. Time: 00:00:19, Speed: 24.5 KB/s (995.0/s)
+2014-10-17 04:17:46: 

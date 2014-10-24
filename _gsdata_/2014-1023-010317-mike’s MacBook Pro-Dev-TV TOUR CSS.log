@@ -1,0 +1,32 @@
+2014-10-23 01:03:17: -- Dev-TV TOUR CSS: ANALYSIS started by On File Change Incremental on 'mike’s MacBook Pro' (GoodSync 4.3.7.0)
+2014-10-23 01:03:17: /code/dsbase/dsbtv =NoPropDels=> ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-10-23 01:03:17: Delete Analysis results of the jobs that intersect with this job: Dev-TV CSS
+2014-10-23 01:03:17: L: State File has changed, so re-read it: /code/dsbase/dsbtv/_gsdata_/_file_state_v4._gs
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/.sass-cache/766bd5b44f070e04a1fe520d65dd8aaf68e76bdb/_style.scssc20141023-35191-sn6sr
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/main/index.tpl
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/.sass-cache/766bd5b44f070e04a1fe520d65dd8aaf68e76bdb/_style.scssc20141023-35191-1lvi49t
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/.sass-cache/766bd5b44f070e04a1fe520d65dd8aaf68e76bdb/_style.scssc
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/style.css
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/.sass-cache/766bd5b44f070e04a1fe520d65dd8aaf68e76bdb/_style.scssc20141023-35191-h3waja
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/.sass-cache/766bd5b44f070e04a1fe520d65dd8aaf68e76bdb/_style.scssc20141023-35191-2bv2hf
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/main/general/page_bottom.tpl
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/_style.scss
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/.sass-cache/766bd5b44f070e04a1fe520d65dd8aaf68e76bdb/_style.scssc20141023-35191-2yiee2
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/.sass-cache/766bd5b44f070e04a1fe520d65dd8aaf68e76bdb/_style.scssc20141023-35191-1kxpdln
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/.sass-cache/766bd5b44f070e04a1fe520d65dd8aaf68e76bdb/_style.scssc20141023-35191-18yjt8p
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/.sass-cache/766bd5b44f070e04a1fe520d65dd8aaf68e76bdb/_style.scssc20141023-35191-18kot6z
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/style.css.map
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/.sass-cache/766bd5b44f070e04a1fe520d65dd8aaf68e76bdb/_style.scssc20141023-35191-13iem1e
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/.sass-cache/766bd5b44f070e04a1fe520d65dd8aaf68e76bdb/_style.scssc20141023-35191-1prfp35
+2014-10-23 01:03:17: Change in: /code/dsbase/dsbtv/.sass-cache/766bd5b44f070e04a1fe520d65dd8aaf68e76bdb/_style.scssc20141023-35191-i03zc9
+2014-10-23 01:03:17: Changes: 3, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-10-23 01:03:17: Left to Right: Copy File: 3 
+2014-10-23 01:03:17: -- Analysis Completed. Time 00:00:02, Speed: 326 files/s
+2014-10-23 01:03:17: == Dev-TV TOUR CSS: SYNC started by On File Change Incremental on 'mike’s MacBook Pro'
+2014-10-23 01:03:17: /code/dsbase/dsbtv =NoPropDels=> ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main, NoWaitForLocks, UberUnlockedUpload, CopyCreateTime
+2014-10-23 01:03:19: Copy Over '/code/dsbase/dsbtv/_style.scss' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/_style.scss'
+2014-10-23 01:03:20: Copy Over '/code/dsbase/dsbtv/style.css' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/style.css'
+2014-10-23 01:03:21: Copy Over '/code/dsbase/dsbtv/style.css.map' -> 'ftp://cs2055.mojohost.com/drsusanblock.tv/public_html/NEWTEMPS/main/style.css.map'
+2014-10-23 01:03:22: Items Synced OK: 3, Errors: 0
+2014-10-23 01:03:22: == Sync Completed. Time: 00:00:05, Speed: 40.7 KB/s (44.0 KB/s)
+2014-10-23 01:03:22: 
