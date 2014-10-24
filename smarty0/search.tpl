@@ -7,22 +7,13 @@
 <div class="container content">
 
 <!--Top Navbar-->
-<div class="nav_fixed_width">{include file="$spath/general/topnav.tpl" item=$nav}</div>
+<div class="nav_fixed_width searchpg">{include file="$spath/general/topnav.tpl" item=$nav}</div>
 
 
 {if isset($root.page.results.result)}
 
 
 <div style="width:100%;float:right;">
-		<!--Title Bar-->
-<div class="title_bar">{$templateconf.txtadvancedsearch}</div>
-<!--Search Form-->
-{include file="search/advancedsearch_box.tpl"}
-</div>
-
-
-
-
 <!--Title-->
 <div class="title_bar">{$templateconf.txtsearchresultsfor}
 

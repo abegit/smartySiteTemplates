@@ -6,7 +6,7 @@
 <div class="comments_box_admin">
 {else}
 <div class="comments_box">
-{/if}sss
+{/if}
 
 <table cellpadding="2">
 <tr>

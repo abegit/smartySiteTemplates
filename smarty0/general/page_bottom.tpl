@@ -264,65 +264,47 @@ table {
 		
 <script>
 {literal}
+var braek = jQuery.noConflict();
+braek(document).ready(function() {
+				
+	var arrayOfImages = new Array();
+	var bufferDistance = 4;
 
-	// starting the script on page load
-	// $(document).ready(function(){
-	// 	$(window).load(function(){
-// 
-	// 		$('.topreviews').cycle({
-	// 	    fx: 'scrollDown', // choose your transition type, ex: fade, scrollUp, // shuffle, etc...
-	// 	     speed:  500,
-	// 	     easing:  'easeOutBack',
-	// 	      timeout: 4000
-	// 	   });
-	// 	    $('#slides').cycle({
-	// 	     speed:  800,
-	// 	     easing:  'easeOutBack',
-	// 	      timeout:  4000
-	// 	   });
-	// 	});
-	// });
-		var jQtwo = jQuery.noConflict();
-			jQtwo(document).ready(function() {
-				
-				var arrayOfImages = new Array();
-				var bufferDistance = 4;
-				
-				jQtwo('.iosSlider').iosSlider({
-					snapToChildren: true,
-					desktopClickDrag: true,
-					autoSlide: true,
-					autoSlideTimer: 4000,
-					autoSlideTransTimer: 2000,
-					autoSlideHoverPause: false,
-					infiniteSlider: true,
-					navNextSelector: "a.prev",
-					navPrevSelector: "a.next",
-					onSlideChange: function(args) {
-						
-						jQtwo('.item:eq(' + (args.currentSlideNumber + bufferDistance - 2) + ')').addClass('item' + (args.currentSlideNumber + bufferDistance - 1));
-						
-					}
-				});
-			}); 
+	braek('.iosSlider').iosSlider({
+		snapToChildren: true,
+		desktopClickDrag: true,
+		autoSlide: true,
+		autoSlideTimer: 4000,
+		autoSlideTransTimer: 2000,
+		autoSlideHoverPause: false,
+		infiniteSlider: true,
+		navNextSelector: "span.prev",
+		navPrevSelector: "span.next",
+		onSlideChange: function(args) {
+			
+			braek('.item:eq(' + (args.currentSlideNumber + bufferDistance - 2) + ')').addClass('item' + (args.currentSlideNumber + bufferDistance - 1));
+			
+		}
+	});
+}); 
 		
 {/literal}
 </script>
 <script>
 {literal}
-var jQthree = jQuery.noConflict();
-jQthree(document).ready(function() {
+var braekon = jQuery.noConflict();
+braekon(document).ready(function() {
 	/** Splash page stuff **/
-	jQthree(window).load(function() {
+	braekon(window).load(function() {
 		// When clicking on the button close or the mask layer the popup closed
-		jQthree('a#searchbtn').click(function() { 
-			var X=jQthree(this).attr('closed');
+		braekon('a#searchbtn').click(function() { 
+			var X=braekon(this).attr('closed');
 		      if(X==1){
-		        jQthree("#advsearch").hide();
-		        jQthree(this).attr('closed', '0');
+		        braekon("#advsearch").hide();
+		        braekon(this).attr('closed', '0');
 		      } else {
-		        jQthree("#advsearch").show();
-		        jQthree(this).attr('closed', '1');
+		        braekon("#advsearch").show();
+		        braekon(this).attr('closed', '1');
 		      }
 			return false;
 		});

@@ -5,9 +5,9 @@
 {include file="$spath/general/header.tpl" item='listen'}
 
 
+<div class="container content">
 <!--Top Navbar-->
 <div class="nav_fixed_width">{include file="$spath/general/topnav.tpl" item='listen'}</div>
-
 
 
 
@@ -17,7 +17,7 @@
 <!--Left Column-->
 
 <!--Title-->
-<div class="title_bar">{$root.page.content.item[0].Title[0]}</div>
+<div class="title_bar">Watch & Listen to RadioSuzy1 LIVE SHOWS Every Saturday Night! Since 1987</div>
 
 
 {assign var="item" value=$root.page.content.item[0]}
@@ -33,6 +33,9 @@
 	<span class="custompages_info">
 	
 	
+		<span class="custompages_info">
+	
+	
 		{$item.Body[0]}
 	
 	
@@ -43,9 +46,9 @@
 	</span>
 	</div>
 	
-
+	
 {/if}
-
+	
 
 </td>
 <td valign="top">
@@ -58,13 +61,13 @@
 <br>
 {/if}
 
-
+	
 {** Should the banner code show? **}
 {assign var="useb" value="0"}
 {foreach from=$page.banners.banner item=banner}
  {if ($banner.ZoneId[0] == "custompages_suggested") && ($useb == "0")}
  {assign var="useb" value="1"}
- {/if}
+		{/if}
 {/foreach}
 
 {** If a banner exists, show the spot for it **}
@@ -82,13 +85,13 @@
 <div class="title_bar">{$templateconf.txtlatesttweets}</div>
 {include file="$spath/general/twitter.tpl"}
 <br />
-{/if}
-
-
+	{/if}	
+	
+	
 <br>
-
-
-
+	
+	
+	
 {if in_array('stats',$pluginsdata.plugins) && $pluginsdata.enabled.stats == 1 }
 <!--Most Viewed Updates Toplist-->
 <div class="title_bar">{$templateconf.txtmostviewed}</div>

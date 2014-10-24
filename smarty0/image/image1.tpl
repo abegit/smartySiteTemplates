@@ -135,7 +135,8 @@
 
 	{if $flashmovie == "0"}
 	{literal}
-		$(document).ready(function() {
+	var jQpicarr = jQuery.noConflict();
+		jQpicarr(document).ready(function() {
 	  RenderImg(picarr, id, "mediabox")
 	    });
 	{/literal}
@@ -230,8 +231,8 @@
 	
 	{literal}
 	  imgg = ""
-
-		$().ready(function()
+	  var jQimage = jQuery.noConflict();
+		jQimage().ready(function()
 		{
 		  RenderImg(picarr, id, "mediabox");
 	   });

@@ -1,8 +1,9 @@
 {global get="image_folder" assign="image_folder"}
 <script>
 {literal}
-var jQsarch = jQuery.noConflict();
-jQsarch().ready(function($){
+
+$().ready(function()
+{
     $("#autosuggest").autocomplete({
       source: function(req, add){
 		$.get('search_ajax.php?q=' + req.term, function(data) {
@@ -29,6 +30,8 @@ jQsarch().ready(function($){
 		});
       }
     });
+
+
 });
 {/literal}
 </script>

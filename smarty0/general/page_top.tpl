@@ -33,6 +33,7 @@
 {** End load **}
 <!DOCTYPE html>
 <html>
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta name="RATING" content="RTA-5042-1996-1400-1577-RTA" />
@@ -77,7 +78,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS 0.91" href="{$rssurl}" />
 <!--new and improved canvas html5 slider-->
 <link rel="stylesheet" type="text/css" href="/galleries/styles.css" />
-<link rel="stylesheet" type="text/css" href="../members/style.css"></link>
+<link rel="stylesheet" type="text/css" href="../main/style.css"></link>
 
 {if $seokey}
 	<meta name="keywords" content="{$seokey}" />
@@ -94,47 +95,12 @@
 {/strip}
 
 
-{include file="$spath/general/social_headers.tpl" title=$title seokey=$seokey seodesc=$seodesc areaurl=$areaurl}
 
 
 
-<!-- JQuery include -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<!-- jCarousel library -->
-<script type="text/javascript" src="js/jquery.jcarousel.pack.js"></script>
-<!-- jCarousel core stylesheet -->
-<link rel="stylesheet" type="text/css" href="js/jquery.jcarousel.css" />
-<!-- jCarousel skin stylesheet -->
-<link rel="stylesheet" type="text/css" href="js/tango/skin.css" />
-
-<!-- <script type="text/javascript" src="js/swipe.js"></script>-->
 
 
 
-<!-- include new jplayer plugin -->
-﻿<link rel="stylesheet" href="jpl/skin/circle.skin/circle.player.css">
-<script type="text/javascript" src="jpl/js/jquery.jplayer.min.js"></script>
-<script type="text/javascript" src="jpl/js/jquery.transform2d.js"></script>
-<script type="text/javascript" src="jpl/js/jquery.grab.js"></script>
-<script type="text/javascript" src="jpl/js/mod.csstransforms.min.js"></script>
-<script type="text/javascript" src="jpl/js/circle.player.js"></script>
-
-<script type="text/javascript" src="http://www.google.com/jsapi"></script>
-<script type="text/javascript" src="js/gfeedfetcher.js">
-/***********************************************
-* gAjax RSS Feeds Displayer- (c) Dynamic Drive (www.dynamicdrive.com)
-* This notice MUST stay intact for legal use
-* Visit http://www.dynamicdrive.com/ for full source code
-***********************************************/
-</script>
-
-
-<!-- JQuery include -->
-<!-- <script type="text/javascript" src="http://drsusanblock.tv/galleries/script.js"></script> -->
-
-
-<!-- jQuery-UI -->
-<link rel="stylesheet" type="text/css" href="./images/jqueryui/jquery-ui.custom.min.css" />
 
 
 
@@ -155,6 +121,14 @@
 {** End Adding **}
 {/strip}
 
+{include file="$spath/general/social_headers.tpl" title=$title seokey=$seokey seodesc=$seodesc areaurl=$areaurl}
+
+
+
+<!-- JQuery include -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+
 {** Flash Code **}
 <script type='text/javascript' src='jwplayer.js'></script>
 <script type="text/javascript">jwplayer.key="qLzynSodouEg2o+gukjzO+6P0dzyHYq1TqcHaUF9cJE=";</script>
@@ -166,15 +140,58 @@
 <script type='text/javascript'  src ="include.js"></script>
 <script type='text/javascript'  src ="js/helper.js"></script>
 
+<!-- include new jplayer plugin -->
+﻿<link rel="stylesheet" href="jpl/skin/circle.skin/circle.player.css" />
+<script type="text/javascript" src="jpl/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="jpl/js/jquery.transform2d.js"></script>
+<script type="text/javascript" src="jpl/js/jquery.grab.js"></script>
+<script type="text/javascript" src="jpl/js/mod.csstransforms.min.js"></script>
+<script type="text/javascript" src="jpl/js/circle.player.js"></script>
+
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+
+<script type="text/javascript" src="js/gfeedfetcher.js">
+/***********************************************
+* gAjax RSS Feeds Displayer- (c) Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+</script>
+
+
+<!-- JQuery include -->
+<!-- <script type="text/javascript" src="http://drsusanblock.tv/galleries/script.js"></script> -->
+
+
+<!-- jQuery-UI -->
+<script type="text/javascript" src="js/jquery-ui.custom.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./images/jqueryui/jquery-ui.custom.min.css" />
+
 
 
 <script>
 {literal}
 try
 {
+
 	// starting the script on page load
 	var bLue = jQuery.noConflict();
 	bLue(document).ready(function(){
+
+
+	   ﻿var myCirclePlayer = new CirclePlayer("#jquery_jplayer_1", {
+    	mp3: "http://drsusanblock.com:8000/stream",}, {
+    		cssSelectorAncestor: "#cp_container_1",
+			swfPath: "jpl/js",
+			wmode: "window",
+			supplied: "mp3",
+			keyEnabled: true
+		});
+
+
+
+
 		if (typeof jQuery.ui == 'undefined')
 		{
 			// alert("Warning: File js/jquery-ui.custom.min.js not found.")
@@ -211,9 +228,39 @@ catch(e)
 
 
 {/literal}
+
 </script>
 
+<script type="text/javascript">
+{literal}
+function makeActivePayType(type) {
+    document.getElementById('ccl').className = '';
+    document.getElementById('cql').className = '';
+    document.getElementById('phl').className = '';
+	document.getElementById('dpl').className = '';
+	document.getElementById('edl').className = '';
 
+    // activate type    
+    document.getElementById(type + 'l').className = 'active';
+    document.getElementById('right-side').innerHTML=document.getElementById('right_'+type).innerHTML;
+}
+
+function makeActiveJoinType(type,num) {
+
+    for (var i = 0; i < 4; i++) {
+	var namex='pay_'+type+'_type'+ i + 'l';
+
+        if (document.getElementById(namex)) {
+            if (i == num) {
+                document.getElementById(namex).className = 'active';
+            } else {
+                document.getElementById(namex).className = '';
+            }
+        }
+    }
+}
+{/literal}
+</script>
 
 
 {if $templateconf.googleanalyticscode != ''}
@@ -232,14 +279,33 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </script>
 {/literal}
 {/if}
+
 </head>
 
 {if !isset($onload)} {assign var="onload" value="" }{/if}
-<body  {$onload}>
+<body {$onload}>
 {if !empty($templateconf.splashtxtwarning)}
 	{include file="$spath/general/splash.tpl"}
 {/if}
+<div id="massk" style="position:fixed;display:none;">
+	<div class="center">
+		<div class="bouncywrap">
 
+        <div class="dotcon dc1">
+        <div class="dot"></div>
+        </div>
+    
+        <div class="dotcon dc2">
+        <div class="dot"></div>
+        </div>
+    
+        <div class="dotcon dc3">
+        <div class="dot"></div>
+        </div>
+ 
+  </div>
+</div>
+	</div>
 <div id="universal_navbar">
 {assign var="pipe" value="0"}
 
@@ -309,12 +375,19 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <td align="right">
 
-<div style="display:inline;"><a class="topiconlink hilite" id="searchbtn" href="#">SEARCH SPEAKEASY STARS</a>
+<div style="display:inline;"><a class="topiconlink hilite" color="color:#cfa710;" href="/join">Become a Member!</a><div style="display:inline;"><a class="topiconlink hilite" id="searchbtn" href="#">SEARCH SPEAKEASY STARS</a><a class="topiconlink hilite" href="../members">MEMBERS AREA</a>
 {if $templateconf.txtmobileurl}
 <a class="topiconlink" href="{$templateconf.txtmobileurl}">{$templateconf.txtmobile|@strtoupper}</a>
 {elseif $root.page_attr[0].mobileswap}
-<a class="topiconlink" href="{include file="$spath/general/pg_index.tpl" mobile=1}">{$templateconf.txtmobile|@strtoupper}<i class="bono-phone" style="line-height: 10px; color:#fff; position: relative; margin-left:5px; bottom: -9px; font-size: 28px;"></i></a>
+<a class="topiconlink" href="{include file="$spath/general/pg_index.tpl" mobile=1}">{$templateconf.txtmobile|@strtoupper}</a>
 </div>
+<td>
+<div style="display:inline;">
+
+<img src="images/icons/mobileicon.png" border="0" class="topicon">
+
+</div>
+
 </td>
 {/if}
 

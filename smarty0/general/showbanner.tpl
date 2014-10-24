@@ -56,8 +56,8 @@
 {if in_array('banners',$pluginsdata.plugins) && $pluginsdata.enabled.banners == 1 }
 <script>
 {literal}
-<!--
- $(document).ready(function(){
+var jQbanner = jQuery.noConflict();
+ jQbanner(document).ready(function(){
 
   if (window.XMLHttpRequest)
   {
@@ -78,7 +78,6 @@
   }
  });
 
--->
 {/literal}
 </script>
 

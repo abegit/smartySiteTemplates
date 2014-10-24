@@ -23,10 +23,27 @@
 
 <!--Latest Updates-->
 {if $root.page.onpage[0] == 1 }
+
 <!--Slider Code-->
-<div id="slideshow" style="background: #333; display:block;overflow:hidden; position:relative; z-index:30;">
-{include file="$spath/sliders/28.tpl"}
+
+<div style="position: relative; top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 1024px; height: 540px;" class="iosSlider">
+				
+					{include file="$spath/sliders/29.tpl"}
+			
+			</div>
+<div id="sliderNav"><span class="next">Next</span>
+<span class="prev"> Prev</span>
 </div>
+
+
+<!-- <div id="slideshow" style="background: #333; display:block;overflow:hidden; position:relative; z-index:30;">
+	
+{include file="$spath/sliders/24.tpl"}
+</div> -->
+
+
+
+
 {/if}
 
 

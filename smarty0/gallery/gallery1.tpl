@@ -4,7 +4,7 @@
 {** Set the number of columns for video clips **}
 {assign var="numcolumns_video" value="4"}
 
-
+             
 {global get="image_folder" assign="image_folder"}
 {** These are deafult variables **}
 {** DO NOT CHANGE THEM unless you know what are you doing **}
@@ -46,7 +46,7 @@ function TrackDownload(id, cg, type, mt)
 
 {/literal}
 </script>
-
+            
 
 {/if}
 
@@ -86,7 +86,7 @@ function TrackDownload(id, cg, type, mt)
 {if !$fpp && $root.page.contentgroup.wc_id[0]}
 
 	{if !isset($root.page.trial) || (isset($root.page.trial) && in_array($root.page.contentgroup.Id[0], $root.page.trial.AllowRecent.Id))}
-	
+
 	{assign var="wc_id" value=$root.page.contentgroup.wc_id[0]}
 	{assign var="wc_uid" value=$root.page.webmaster_central_uid}
 	{assign var="wc_datestamp" value=$root.page.webmaster_central_datestamp}
@@ -96,7 +96,7 @@ function TrackDownload(id, cg, type, mt)
 	
 	<div align="center">
 	<div id='mediaspacewc'></div>
-	</div>
+</div>
 
 	<script src="jwplayer.js"></script>
 	<script type="text/javascript">jwplayer.key="qLzynSodouEg2o+gukjzO+6P0dzyHYq1TqcHaUF9cJE=";</script>
@@ -115,7 +115,7 @@ function TrackDownload(id, cg, type, mt)
 	{else}
 	<div align="center">
 	<a href="{$root.page.trial.VideoURL[0]}">{$templateconf.wmctrialupgrade}</a>
-	</div>
+</div>
 	{/if}
 
 {/if}
@@ -731,8 +731,8 @@ function TrackDownload(id, cg, type, mt)
 
 
 
-
-</td>
+             
+             </td>
 {/if}
 
 
@@ -740,8 +740,8 @@ function TrackDownload(id, cg, type, mt)
 
 
 
-</tr>
-</table>
+          </tr>
+        </table>
 
 
 
@@ -852,7 +852,7 @@ function TrackDownload(id, cg, type, mt)
 		{if $count!=0} </tr> {/if}
 		</table>
 
-	
+
 
 
 
@@ -932,7 +932,7 @@ function TrackDownload(id, cg, type, mt)
 
    <!--End Content Wrapper Table-->
 </td>
-	
+
 			</tr>
 
 </table>
@@ -947,7 +947,7 @@ function TrackDownload(id, cg, type, mt)
 {/if}
 
 <br />
-
+ 
 
 
 {if in_array('comments',$pluginsdata.plugins) && $pluginsdata.enabled.comments == 1 && $root.has_username}

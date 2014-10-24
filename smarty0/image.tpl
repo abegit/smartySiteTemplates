@@ -46,7 +46,8 @@ atst[atst.length] = "{$flashtype}";
 {/foreach}
 
 {literal}
-$().ready(function()
+var jQimage = jQuery.noConflict();
+jQimage().ready(function()
 {
 
 
