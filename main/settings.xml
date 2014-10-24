@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<settings>
+  <text>
+    <category name="Calendar">
+      <item name="txtcalendar">Calendar</item>
+      <item name="txtlastmonth">Last Month</item>
+      <item name="txtnextmonth">Next Month</item>
+      <item name="txtreturntocalendar">Return to calendar</item>
+    </category>
+    <category name="Categories and Keyword Tagging">
+      <item name="txtaddmoretags">Edit Category Tags or Add More</item>
+      <item name="txtaddtags">Suggest Category Tags:</item>
+      <item name="txtaskeywordtag">as a Keyword Tag</item>
+      <item name="txtcategories">Categories:</item>
+      <item name="txtcategorytag">Category Tag:</item>
+      <item name="txtcategorytags">Category Keyword Tags:</item>
+      <item name="txtclicktoaddkeywordtags">Suggest Category Keyword Tags</item>
+      <item name="txtdeletetag">Delete Tag</item>
+      <item name="txtenterkeywords">Enter all the category tags you'd like to tag this update with. Separated tags with a comma (,)</item>
+      <item name="txtthankyouforsuggesting">Thank you for your tag suggestion.</item>
+    </category>
+    <category name="Comments">
+      <item name="txtaddcomment">Add a Comment</item>
+      <item name="txtwriteacomment">Write a Comment...</item>
+      <item name="txtcomment">Comment</item>
+      <item name="txtcommentnote">For privacy please DO NOT use your real name unless you want it published for others to see.</item>
+      <item name="txtcomments">Comments</item>
+      <item name="txtsubmitcomment">Submit Comment</item>
+      <item name="txtcommentthankyou">&lt;html&gt;&lt;head&gt;&lt;meta http-equiv="refresh" content="#redirecttime#;url=#redirect#"/&gt;&lt;/head&gt;&lt;body&gt;Thank you for submitting your comment.  You will be redirected shortly.If you are not redirected, please click &lt;a href="#redirect#"&gt;here&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;</item>
+      <item name="txtcommentthankyouajax">Thank you for submitting your comment.</item>
+      <item name="txtcommenterror">&lt;html&gt;&lt;head&gt;&lt;meta http-equiv="refresh" content="#redirecttime#;url=#redirect#"/&gt;&lt;/head&gt;&lt;body&gt;The following problems were encountered submitting your comment:&lt;BR&gt;#error_br#&lt;p&gt;Please go back and try again&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</item>
+      <item name="txtcommenterrorajax">The following problems were encountered submitting your comment:
+#error#
+Please try again.</item>
+    </category>
+    <category name="Dates, Days and Months">
+      <item name="txt14days">14 days</item>
+      <item name="txt30days">30 days</item>
+      <item name="txt3days">3 days</item>
+      <item name="txt60days">60 days</item>
+      <item name="txt7days">7 days</item>
+      <item name="txt90days">90 days</item>
+      <item name="txtapril">April</item>
+      <item name="txtaugust">August</item>
+      <item name="txtdate">Date:</item>
+      <item name="txtdateadded">Date Added</item>
+      <item name="txtdatereceived">Date Received</item>
+      <item name="txtdatesent">Date Sent</item>
+      <item name="txtdecember">December</item>
+      <item name="txtfebruary">February</item>
+      <item name="txtfriday">Friday</item>
+      <item name="txtjanuary">January</item>
+      <item name="txtjuly">July</item>
+      <item name="txtjune">June</item>
+      <item name="txtmarch">March</item>
+      <item name="txtmay">May</item>
+      <item name="txtmonday">Monday</item>
+      <item name="txtnovember">November</item>
+      <item name="txtoctober">October</item>
+      <item name="txtsaturday">Saturday</item>
+      <item name="txtseptember">September</item>
+      <item name="txtsunday">Sunday</item>
+      <item name="txtthursday">Thursday</item>
+      <item name="txttuesday">Tuesday</item>
+      <item name="txtwednesday">Wednesday</item>
+    </category>
+    <category name="DVDs">
+      <item name="txtdvdinfo">DVD Info:</item>
+      <item name="txtdvds">DVDs</item>
+      <item name="txtdvd">DVD</item>
+      <item name="txtdvdtitle">DVDs</item>
+      <item name="txtlatestdvds">Latest DVDs</item>
+      <item name="txtscenesfrom">Scenes From</item>
+    </category>
+    <category name="Error Messages and Info Text">
+      <item name="txtbookmark">Be sure to &lt;a href="javascript:CreateBookmarkLink()"&gt;bookmark&lt;/a&gt; this page and check back for updates.</item>
+      <item name="txtconfirmdelete">Are you sure you want to delete this?</item>
+      <item name="txtgetflashplayer">Get the Flash Player to see this movie.</item>
+      <item name="txtnobonuscontent">We do not currently have any bonus content in this category.</item>
+      <item name="txtnopermission">Sorry, but you do not have permission to view these images.</item>
+      <item name="txtnosearchresults">Sorry, there are no results matching your search criteria.</item>
+      <item name="txtnothanks">(No Thanks)</item>
+      <item name="txtseparatewithcommas">Separate words with commas ,</item>
+      <item name="txttrialmembersnotallowed">Trial members are not allowed to view this page.</item>
+    </category>
+    <category name="Flash Player Settings">
+      <item name="flashmoviestreamer">stream.php</item>
+      <item name="flashmovietype">http</item>
+      <item name="flashmp4streamer"/>
+      <item name="flashmp4type">video</item>
+      <item name="flashvarsgalleryautoplay">1</item>
+    </category>
+    <category name="Footer">
+      <item name="contactemail">youremail@yoursite.com</item>
+      <item name="contactemailurl">mailto:youremail@yoursite.com</item>
+      <item name="contacttext">To contact us email</item>
+      <item name="subfootertext">Copyright Notice Text.</item>
+      <item name="usc2257">&lt;a href="/2257.html"&gt;18 U.S.C. 2257 Compliance statement&lt;/a&gt;</item>
+    </category>
+    <category name="Google Analytics Code">
+      <item name="googleanalyticscode"/>
+    </category>
+    <category name="Member Area Navigation">
+      <item name="navtxtaudiofiles">Audio</item>
+      <item name="navtxtblog">Blog</item>
+      <item name="navtxtdvds">DVDs</item>
+      <item name="navtxtbonussites">Sites</item>
+      <item name="navtxtcalendar">Calendar</item>
+      <item name="navtxteroticstories">Stories</item>
+      <item name="navtxtfaq">FAQs</item>
+      <item name="navtxtfaqs">FAQ</item>
+      <item name="navtxtfavorites">Favorites</item>
+      <item name="navtxtlivecams">Live Cams and Shows</item>
+      <item name="navtxtmodels">Models</item>      
+      <item name="navtxtmovies">Movies</item>
+      <item name="navtxtnetworkhome">Network Home</item>
+      <item name="navtxtnewmessage">New Message!</item>
+      <item name="navtxtphotos">Photos</item>
+      <item name="navtxtprivatemessaging">Private Messaging</item>
+      <item name="navtxtvideofeeds">Video Feeds</item>
+    </category>
+    <category name="Messaging">
+      <item name="txtcomposemessage">Compose a New Message</item>
+      <item name="txtdeletemessage">Delete Message</item>
+      <item name="txtemail">Email</item>
+      <item name="txtenteremail">Enter Your Email Address</item>
+      <item name="txtentername">Enter Your Name</item>
+      <item name="txtfrom">From</item>
+      <item name="txtgetemailresponses">Get responses via email</item>
+      <item name="txtmailjsbody">Please enter a message subject.</item>
+      <item name="txtmailjssubj">Please enter a message body.</item>
+      <item name="txtmessage">Message</item>
+      <item name="txtprivatemessagemailbox">Private Messaging Mailbox</item>
+      <item name="txtgetemail">Get Email Responses</item>
+      <item name="txtreplytomessage">Reply to Message</item>
+      <item name="txtsendmessage">Send Message</item>
+      <item name="txtsubject">Subject</item>
+      <item name="txtto">To</item>
+      <item name="txtwrote">wrote:</item>
+      <item name="txtyourname">Your Name</item>
+    </category>
+    <category name="Miscellaneous/General Navigation Items">
+      <item name="txtclicktoreturntomain">Click to Return to the Main</item>
+      <item name="txtfaqsanswers">Answers</item>
+      <item name="txtgoback">Go Back</item>
+      <item name="txtlanguage">Select Language</item>
+      <item name="txtnext">Next</item>
+      <item name="txtpage">Page</item>
+      <item name="txtprevious">Previous</item>
+      <item name="txtsubscribe">Subscribe</item>
+      <item name="txtview">View</item>
+      <item name="txtviewingpage">Viewing Page</item>
+      <item name="defaultmetadescription"/>
+      <item name="defaultmetakeywords"/>
+      <item name="txtsite">Site:</item>
+    </category>
+    <category name="Model Page">
+      <item name="txtabout">About</item>
+      <item name="txtage">Age:</item>
+      <item name="txtastrologicalsign">Astrological Sign:</item>
+      <item name="txtfunfact">Fun Fact:</item>
+      <item name="txtheight">Height:</item>
+      <item name="txtmeasurements">Measurements:</item>
+      <item name="txtvitalstats">Vital Stats:</item>
+    </category>
+    <category name="News/Blog">
+      <item name="txtlatestnews">Latest News</item>
+      <item name="txtpostedon">Posted on</item>
+      <item name="txtreadmore">Read More</item>
+      <item name="txtnewswith">News With</item>
+      <item name="txttag">TAG</item>
+      <item name="txttags">Tags:</item>
+    </category>
+    <category name="Page Titles">
+      <item name="titletxtadvancedsearch">Advanced Search</item>
+      <item name="titletxtcalendar">Calendar</item>
+      <item name="titletxtfavorites">Favorites</item>
+      <item name="titletxtindex">Elevated X, Inc. cms Demo</item>
+      <item name="titletxtmodelindex">Models</item>
+      <item name="titletxtmovieindex">Movies</item>
+      <item name="titletxtnews">News/Blog</item>
+      <item name="titletxtphotogalleryindex">Photos</item>
+      <item name="titletxtsearch">Search Results</item>
+      <item name="titletxttagindex">Tag Index</item>
+    </category>
+    <category name="Photos and Movies">
+      <item name="txtdelivery">Delivery</item>
+      <item name="txtdownload">Download</item>      
+      <item name="txtformat">Format</item>
+      <item name="txtfullmoviedownload">Full Movie Download</item>
+      <item name="txtindividualclips">Individual Clips</item>      
+      <item name="txtminutes">minute(s)</item>
+      <item name="txtmostpopularmovies">Most Popular Movies</item>
+      <item name="txtmostpopularphotos">Most Popular Photos</item>
+      <item name="txtMovies">Movies</item>
+      <item name="txtofvideo">of video</item>
+      <item name="txtPhoto">Photo</item>
+      <item name="txtphotogallery">Photo Gallery</item>
+      <item name="txtphotos">photos</item>
+      <item name="txtPhotos">Photos</item>
+      <item name="txtplay">Play</item>
+      <item name="txtseconds">second(s)</item>
+      <item name="txtselectslideshowspeed">Select how long to wait before automatically going to the next picture.</item>     
+      <item name="txtsharevideowithfriend">Share this - Email this video clip to a friend</item>
+      <item name="txtslideshow">Slideshow:</item>
+      <item name="txtvideoscreencaps">video screencaps</item>
+      <item name="txtwatchmovie">Watch Movie</item>
+      <item name="txtviewphotos">View Photos</item>
+      <item name="txtdownloadphotos">Download Photos</item>
+    </category>
+    <category name="Poll">
+      <item name="txtpollresults">Poll results:</item>
+      <item name="txtsubmitvote">Submit Vote</item>
+      <item name="txtthisweekspoll">This Week's Poll</item>
+      <item name="txttotalvotes">total votes</item>
+      <item name="txtquestion">Question</item>
+      <item name="titletxtpolls">Polls</item>
+      <item name="txtpolls">Polls</item>
+    </category>
+    <category name="Search and Sorting">
+      <item name="txtadvancedsearch">Advanced Search</item>
+      <item name="txtallbonuscategories">All Bonus Categories</item>
+      <item name="txtallcontenttypes">All Content Types</item>
+      <item name="txtallthesewords">All these words</item>
+      <item name="txtand">and</item>
+      <item name="txtanyofthesewords">Any of these words</item>
+      <item name="txtanytime">Anytime</item>
+      <item name="txtbrowsemodels">Browse Models By Name:</item>
+      <item name="txtbutdontshowresults">But don't show results that have:</item>
+      <item name="txtcontainsmediatypes">That contains media types</item>
+      <item name="txtcontentaddedwithin">Content added within</item>
+      <item name="txtfiltersitesby">Filter by:</item>
+      <item name="txtfindphotosetsandmovies">Find photo sets or movies that contain:</item>
+      <item name="txtlistresults">List Results</item>    
+      <item name="txtnametitle">Name/Title</item>
+      <item name="txtonlyshowresultsfor">Only show results for:</item>
+      <item name="txtsearch">Search:</item>
+      <item name="txtsearchresultsfor">Search Results for</item>
+      <item name="txtthatmatchcategory">That match category keyword tags:</item>
+      <item name="txtthisexactword">This exact word or phrase</item>
+      <item name="txtgo">Go</item>
+      <item name="txtclearform">Clear Form</item>
+    </category>
+    <category name="Section Titles">
+      <item name="txtfaqs">Frequently Asked Questions</item>
+      <item name="txtfavorites">Favorites</item>
+      <item name="txtlatestnetworkupdates">Latest Network Updates</item>
+      <item name="txtlatestupdates">Latest Updates</item>
+      <item name="txtmoreupdates">More Updates</item>
+      <item name="txtmostpopular">Most Popular</item>
+      <item name="txtmostpopulargirls">Most Popular Models</item>
+      <item name="txtmostpopularupdates">Most Popular Updates</item>
+      <item name="txtmostrecent">Most Recent</item>
+      <item name="txtmostviewed">Most Viewed Updates</item>
+      <item name="txtnetworksites">Network Sites</item>
+      <item name="txtnewsletter">Members Only Newsletter</item>
+      <item name="txtspecialoffer">Special Offer</item>
+      <item name="txtsuggestedsite">Suggested Site</item>
+      <item name="txtupcoming">Upcoming Updates</item>
+      <item name="txtupdatesyoumightlike">Updates You Might Like:</item>
+      <item name="txtwhatshot">What's Hot</item>
+    </category>
+    <category name="Tour">
+      <item name="tourtxtblog">Blog</item>
+      <item name="tourtxtfulllengthmovies">Full Length Movies</item>
+      <item name="tourtxthighresphotos">High Res Photos</item>
+      <item name="tourtxthome">Home</item>
+      <item name="tourtxthotgirls">Hot Stars</item>
+      <item name="tourtxtjoin">Join Now</item>
+      <item name="tourtxtjoin1">Inside you'll have unlimited access to all our photos and videos.</item>
+      <item name="tourtxtjoin2">Download everything with no limits or restrictions!</item>
+      <item name="tourtxtjoin3">Like these updates? Just wait until you see what's inside!</item>
+      <item name="tourtxtjoinlink">Get Your Instant Access Now For All The Full Length Videos!</item>
+      <item name="tourtxtmemberlogin">Members</item>
+      <item name="tourtxtmobile">Mobile Version</item>      
+      <item name="tourtxtmodels">Models</item>
+      <item name="tourtxttitle">Elevated X, Inc. CMS Demo</item>      
+      <item name="tourtxtwatchtrailer">Watch the Trailer</item>
+      <item name="tourtxtmobileurl"/>
+      <item name="trailerjoin">&lt;a id="postroll_url" href="join.php"&gt;&lt;img alt="Join Today!" src="images/join.jpg"&gt;&lt;/a&gt;&lt;p&gt;&lt;a class="replay" href="javascript:replay();"&gt;Click here to replay the video&lt;/a&gt;&lt;/p&gt;</item>
+      <item name="tourdefaultmetadescription"/>
+      <item name="tourdefaultmetakeywords"/>
+      <item name="txtvideoviewssremaining">free video view(s) remaining.</item>
+    </category>
+    <category name="Updates and Set/Update Info">
+      <item name="txtadded">Added</item>
+      <item name="txtaddedtofavorites">Added to favorites</item>
+      <item name="txtaddtofavorites">Add to favorites</item>
+      <item name="txtaveragerating">Avg Rating</item>
+      <item name="txtbuydvd">Buy This DVD</item>
+      <item name="txtcoming">Coming</item>
+      <item name="txtfeaturedmodels">Featuring:</item>
+      <item name="txtin">in</item>
+      <item name="txtof">of</item>
+      <item name="txtoff">Off</item>
+      <item name="txtratethismodel">Rate this Model:</item>
+      <item name="txtratethisupdate">Rate this Update:</item>
+      <item name="txtremovefromfavorites">Remove from Favorites</item>
+      <item name="txtsetswith">Updates with</item>
+      <item name="txttitle">Title:</item>
+      <item name="txtupdates">Updates</item>
+      <item name="txtupdatesfeaturing">Updates Featuring</item>
+      <item name="txtwatchvideoondemand">Watch Video On Demand</item>
+    </category>
+    <category name="RSS">
+      <item name="rssmembersurl">/members/</item>
+      <item name="wmctrialupgrade">&lt;img border="0" src="images/join.jpg" /&gt;</item>
+    </category>
+    <category name="Mobile">
+      <item name="txtmobile">Mobile Version</item>
+    </category>
+    <category name="Social Media">
+      <item name="txtlatestfacebook" plugin="facebook">Latest From Facebook</item>
+      <item name="txtlatesttweets" plugin="twitter">Latest Tweets</item>
+    </category>
+  <category name="Join Page">
+    <item name="txtalternativepayment">Alternative Payment</item>
+    <item name="txtbillingdetails">By clicking the button above, you certify that you are 18 years of age or older and agree to the &lt;a href=""&gt;Terms and Conditions&lt;/a&gt; of this purchase and have read our &lt;a href=""&gt;Privacy Policy.&lt;/a&gt;</item>
+    <item name="txtbillingfooter">All memberships renew automatically unless canceled.</item>
+    <item name="txtbillingsupport">For customer service please visit &lt;a href=""&gt;&lt;/a&gt;.</item>
+    <item name="txtdiscreet">DISCREET &amp; CONFIDENTIAL</item>
+    <item name="txtjoinpagepurchase">JOIN NOW</item>
+    <item name="txtmembershiptype">Membership Type</item>
+    <item name="txtpaybycheck">Pay By Check</item>
+    <item name="txtpaybycreditcard">Pay By Credit Card</item>
+    <item name="txtpaybyphone">Pay By Phone</item>
+    <item name="txtpaymentoption1">1 Month - $19.95</item>
+    <item name="txtpaymentoption2">3 Days - $2.95</item>
+    <item name="txtpaymenttype">Payment Type</item>
+    <item name="txtsecure">100% SECURE</item>
+  </category>
+  <category name="Splash Page - Age Warning Popup">
+    <item name="splashtxtadultsonly">This site is for adults only!</item>
+    <item name="splashtxtdisagree">I DISAGREE - </item>
+    <item name="splashtxtenter">I AGREE - ENTER</item>
+    <item name="splashtxtexit">EXIT</item>
+    <item name="splashtxtheading">This web site contains sexually explicit material:</item>
+    <item name="splashtxtmessage">PASTE YOUR AGE CONSENT AGREEMENT TEXT HERE.</item>
+    <item name="splashtxtwarning">WARNING -</item>
+  </category>
+  </text>
+</settings>
