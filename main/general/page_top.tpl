@@ -98,41 +98,8 @@
 
 
 
-<!-- JQuery include -->
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<!-- jCarousel library -->
-<script type="text/javascript" src="js/jquery.jcarousel.pack.js"></script>
-<!-- jCarousel core stylesheet -->
-<link rel="stylesheet" type="text/css" href="js/jquery.jcarousel.css" />
-<!-- jCarousel skin stylesheet -->
-<link rel="stylesheet" type="text/css" href="js/tango/skin.css" />
-<!-- include new jplayer plugin -->
-﻿<link rel="stylesheet" href="jpl/skin/circle.skin/circle.player.css" />
-<script type="text/javascript" src="jpl/js/jquery.jplayer.min.js"></script>
-<script type="text/javascript" src="jpl/js/jquery.transform2d.js"></script>
-<script type="text/javascript" src="jpl/js/jquery.grab.js"></script>
-<script type="text/javascript" src="jpl/js/mod.csstransforms.min.js"></script>
-<script type="text/javascript" src="jpl/js/circle.player.js"></script>
 
 
-<script type="text/javascript" src="http://www.google.com/jsapi"></script>
-
-<script type="text/javascript" src="js/gfeedfetcher.js">
-/***********************************************
-* gAjax RSS Feeds Displayer- (c) Dynamic Drive (www.dynamicdrive.com)
-* This notice MUST stay intact for legal use
-* Visit http://www.dynamicdrive.com/ for full source code
-***********************************************/
-</script>
-
-
-<!-- JQuery include -->
-<script type="text/javascript" src="http://drsusanblock.tv/galleries/script.js"></script>
-
-
-<!-- jQuery-UI -->
-<script type="text/javascript" src="js/jquery-ui.custom.min.js"></script>
-<link rel="stylesheet" type="text/css" href="./images/jqueryui/jquery-ui.custom.min.css" />
 
 
 
@@ -154,6 +121,10 @@
 {** End Adding **}
 {/strip}
 
+<!-- JQuery include -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+
 {** Flash Code **}
 <script type='text/javascript' src='jwplayer.js'></script>
 <script type="text/javascript">jwplayer.key="qLzynSodouEg2o+gukjzO+6P0dzyHYq1TqcHaUF9cJE=";</script>
@@ -165,11 +136,58 @@
 <script type='text/javascript'  src ="include.js"></script>
 <script type='text/javascript'  src ="js/helper.js"></script>
 
+<!-- include new jplayer plugin -->
+﻿<link rel="stylesheet" href="jpl/skin/circle.skin/circle.player.css" />
+<script type="text/javascript" src="jpl/js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="jpl/js/jquery.transform2d.js"></script>
+<script type="text/javascript" src="jpl/js/jquery.grab.js"></script>
+<script type="text/javascript" src="jpl/js/mod.csstransforms.min.js"></script>
+<script type="text/javascript" src="jpl/js/circle.player.js"></script>
+
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+
+<script type="text/javascript" src="js/gfeedfetcher.js">
+/***********************************************
+* gAjax RSS Feeds Displayer- (c) Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for full source code
+***********************************************/
+</script>
+
+
+<!-- JQuery include -->
+<!-- <script type="text/javascript" src="http://drsusanblock.tv/galleries/script.js"></script> -->
+
+
+<!-- jQuery-UI -->
+<script type="text/javascript" src="js/jquery-ui.custom.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./images/jqueryui/jquery-ui.custom.min.css" />
+
+
 
 <script>
 {literal}
 try
 {
+
+	// starting the script on page load
+	var bLue = jQuery.noConflict();
+	bLue(document).ready(function(){
+
+
+	   ﻿var myCirclePlayer = new CirclePlayer("#jquery_jplayer_1", {
+    	mp3: "http://drsusanblock.com:8000/stream",}, {
+    		cssSelectorAncestor: "#cp_container_1",
+			swfPath: "jpl/js",
+			wmode: "window",
+			supplied: "mp3",
+			keyEnabled: true
+		});
+
+
+
+
 		if (typeof jQuery.ui == 'undefined')
 		{
 			// alert("Warning: File js/jquery-ui.custom.min.js not found.")
@@ -197,6 +215,7 @@ try
 
 		imagePreview();
 		StdImageHandler();
+	});
 }
 catch(e)
 {
@@ -264,7 +283,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 {if !empty($templateconf.splashtxtwarning)}
 	{include file="$spath/general/splash.tpl"}
 {/if}
-<div id="mask" style="position:fixed;">
+<div id="massk" style="position:fixed;display:none;">
 	<div class="center">
 		<div class="bouncywrap">
 

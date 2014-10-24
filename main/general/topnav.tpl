@@ -4,7 +4,6 @@
 {include file="$spath/general/a-zlinks.tpl" zone=1 static=0}
 {/if}
 <div id="search_bar">
-{include file="$spath/general/searchbar.tpl"}
 </div>
 <div class="clear"></div>
 </div>

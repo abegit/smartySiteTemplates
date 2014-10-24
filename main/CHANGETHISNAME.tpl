@@ -2,12 +2,12 @@
 
 
 <div class="wrapper" align="center">
-{include file="$spath/general/header.tpl" item='listen'}
+{include file="$spath/general/header.tpl" item='drsuzytv'}
 
 
 <div class="container content">
 <!--Top Navbar-->
-<div class="nav_fixed_width">{include file="$spath/general/topnav.tpl" item='listen'}</div>
+<div class="nav_fixed_width">{include file="$spath/general/topnav.tpl" item='drsuzytv'}</div>
 
 
 
@@ -19,6 +19,7 @@
 <!--Title-->
 <div class="title_bar">Watch & Listen to RadioSuzy1 LIVE SHOWS Every Saturday Night! Since 1987</div>
 
+{include file="$spath/gallery/gallery1.tpl"}
 
 {assign var="item" value=$root.page.content.item[0]}
 {if isset($item)}
@@ -33,17 +34,8 @@
 	<span class="custompages_info">
 	
 	
-		<span class="custompages_info">
-	
-	
-		{$item.Body[0]}
-	
-	
-	<br>
-	<br>
-
-	
-	</span>
+		<div style="width:100%; display:block; text-align:center; margin:30px 0;">
+<a href="http://drsusanblock.tv/join"><img src="images/join.jpg"></a></div>
 	
 	
 	<br>
@@ -70,8 +62,6 @@
 	
 {/if}
 
-{include file="$spath/gallery/gallery1.tpl"}
-
 
 </td>
 
@@ -83,4 +73,4 @@
 </div>
 
 <!--Footer-->
-<div class="footer_fixed_width">{include file="$spath/general/page_bottom.tpl" item='listen'}</div>
+<div class="footer_fixed_width">{include file="$spath/general/page_bottom.tpl" item='drsuzytv'}</div>
