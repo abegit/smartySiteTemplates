@@ -34,7 +34,7 @@
 <li><a href="./" {if $item=='home' } class="hilite" {/if} ><i class="bono-lamp"></i>Home</a></li>
 
 
-<li><a href="pages.php?id=drsuzytv2" {if $item=='drsuzytv' } class="hilite" {/if} ><i class="bono-microphone"></i>LIVE</a></li>
+<li><a href="pages.php?id=drsuzytv" {if $item=='drsuzytv' } class="hilite" {/if} ><i class="bono-microphone"></i>LIVE</a></li>
 
 
 {if isset($episodesCat)}

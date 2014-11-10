@@ -44,11 +44,6 @@
 
 	
 	</span>
-	
-	
-	<br>
-	<br>
-
 
 	<!--Number of Comments-->
 	{if in_array('comments',$pluginsdata.plugins) && $item.NumComments[0]}
@@ -60,17 +55,13 @@
 
 	{/if}	
 	
-	
-	
-	<br><br /><hr class="custompages_hr" /><br>
-	
+	<hr class="custompages_hr" /><br>
 	</span>
 	</div>
-	
-	
 {/if}
 
 {include file="$spath/gallery/gallery1.tpl"}
+
 
 
 </td>

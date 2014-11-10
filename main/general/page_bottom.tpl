@@ -143,124 +143,12 @@ target="_blank"><img class="statcounter"
 src="https://c.statcounter.com/8070905/0/91b71359/1/"
 alt="web statistics"></a></div></noscript>
 <!-- End of StatCounter Code for Default Guide -->
-
-<style>
-	{literal}
-/*
-----------------------------------------------------------------------------------
-Default css 
-----------------------------------------------------------------------------------
-*/
-
-/* Reset all of the document's element styles to zero... */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-size: 100%;
-	vertical-align: baseline;
-	background: transparent;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-
-/* remember to define focus styles! */
-:focus {
-	outline: 0;
-}
-
-/* remember to highlight inserts somehow! */
-ins {
-	text-decoration: none;
-}
-del {
-	text-decoration: line-through;
-}
-
-/* tables still need 'cellspacing="0"' in the markup */
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-
-
-/* Clearing Floats Class STARTS */
-.Wrapper {
-	display: inline-block;}
-.Wrapper:after {
-	Content: "."; display: block; height: 0; clear: both; visibility: hidden;}
-* html .Wrapper {
-	height: 1%; }
-.Wrapper {
-	display: block;}
-/* Clearing Floats Class ENDS  */
-
-
-
-
-
-/*  */
-
-.hide, .Hide {
-	display: none;}
-.clear {
-	width: 100%; height: 1px; clear: both; display: block; overflow: hidden;}
-			
-
-	.iosSlider {
-	position: relative;
-	top: 0;
-	left: 0;
-	overflow: hidden;
-	width: 1000px;
-	height: 300px;
-}
-
-.iosSlider .slider {
-	width: 100%;
-	height: 100%;
-}
-
-.iosSlider .slider .item {
-	float: left;
-	width: 1000px;
-	height: 300px;
-	left:23552px;
-	background-position: center center;
-	background-size:cover;
-	background-color:#333;
-}
-	{/literal}
-		</style>
 		
 		<!-- JS -->
 		<script src="js/jquery-1.js"></script>
 		
 		<!-- iosSlider plugin -->
-		<script src="js/ioss.js"></script>
+		<script src="js/script.js"></script>
 		
 <script>
 {literal}

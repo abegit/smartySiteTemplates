@@ -1,7 +1,7 @@
 <div style="position: relative; cursor: move; width: 23552px; left: -23552px;" class="slider">
 <div class="item item1"></div>
 <div class="item item2"></div>
-<div class="item item3"></div>
+<a href="pages.php?id=listen" class="item item3"></a>
 <div class="item item4"></div>
 <div class="item item5"></div>
 <div class="item"></div>

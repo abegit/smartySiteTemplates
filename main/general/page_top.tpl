@@ -371,7 +371,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <td align="right">
 
-<div style="display:inline;"><a class="topiconlink hilite" color="color:#cfa710;" href="/join">Become a Member!</a><div style="display:inline;"><a class="topiconlink hilite" id="searchbtn" href="#">SEARCH SPEAKEASY STARS</a><a class="topiconlink hilite" href="../members">MEMBERS AREA</a>
+<div style="display:inline;"><a class="topiconlink hilite" color="color:#cfa710;" href="pages.php?id=join">Become a Member!</a><div style="display:inline;"><a class="topiconlink hilite" style="display:none;" id="searchbtn" href="#">SEARCH SPEAKEASY STARS</a><a class="topiconlink hilite" href="../members">MEMBERS AREA</a>
 {if $templateconf.txtmobileurl}
 <a class="topiconlink" href="{$templateconf.txtmobileurl}">{$templateconf.txtmobile|@strtoupper}</a>
 {elseif $root.page_attr[0].mobileswap}

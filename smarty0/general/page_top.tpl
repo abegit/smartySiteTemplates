@@ -316,57 +316,14 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <table>
 <tr>
-<td><!-- 
+<td> 
 {strip}
-{if $root.page.sites.site|@count > 0}
-{foreach from=$root.page.sites.site item=site}
- {if $site.LimitToSite[0] == "0"}
-   {assign var=hubsite value=$site}
- {/if}
-{/foreach}
-{if isset($hubsite)}
-{if isset($root.page.trial)}
-<a href="{$hubsite.TrialURL[0]}">{$templateconf.navtxtnetworkhome}</a>
-{else}
-<a href="{$hubsite.URL[0]}">{$templateconf.navtxtnetworkhome}</a>
-{/if}
-{assign var="pipe" value="1"}
-{/if}
-{/if}
-
-
-{if in_array('news',$pluginsdata.plugins) && $pluginsdata.enabled.news == 1 }
-{if $pipe}<span>|</span>{/if}
-<a href="{include file="$spath/general/pg_news.tpl"}" {if $item=='news' } class="hilite" {/if} >{$templateconf.navtxtblog}</a>
-{assign var="pipe" value="1"}
-{/if}
- -->
 
 
 <a href="http://drsusanblock.com/" class="hilite">DSB.com</a>
 
 <a href="http://bonoboville.com/members/home" class="hilite">Bonoboville.com</a>
 
-<!-- 
-{if in_array('favorites',$pluginsdata.plugins) && $pluginsdata.enabled.favorites == 1 }
-{if $pipe}<span>|</span>{/if}
-<a href="favorites.php" {if $item=='favorites' } class="hilite" {/if} >{$templateconf.navtxtfavorites}</a>
-{assign var="pipe" value="1"}
-{/if}
-
-{if in_array('calendar',$pluginsdata.plugins) && $pluginsdata.enabled.calendar == 1  }
-{if $pipe}<span>|</span>{/if}
-<a href="{include file="$spath/general/pg_calendar.tpl"}" {if $item=='calendar' } class="hilite" {/if} >{$templateconf.navtxtcalendar}</a>
-{assign var="pipe" value="1"}
-{/if}
- -->
-
-{if  in_array('privatemessage',$pluginsdata.plugins) && $pluginsdata.enabled.privatemessage == 1 && $root.has_username}
-{if $pipe}<span>|</span>{/if}
-<a href="mailbox.php" {if $root.page.privatemessage_attr[0].new == '1'}  class="newmessage" {elseif $item=='messaging'} class="hilite" {/if}  >{if $root.page.privatemessage_attr[0].new == '1'}{$templateconf.navtxtnewmessage}{else}{$templateconf.navtxtprivatemessaging}{/if}
-{assign var="pipe" value="1"}
-</a>
-{/if}
 
 {/strip}
 
@@ -380,13 +337,13 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <td align="right">
 
-<div style="display:inline;"><a class="topiconlink hilite" color="color:#cfa710;" href="/join">Become a Member!</a><div style="display:inline;"><a class="topiconlink hilite" id="searchbtn" href="#">SEARCH SPEAKEASY STARS</a><a class="topiconlink hilite" href="../members">MEMBERS AREA</a>
+<div style="display:inline;"><a class="topiconlink hilite" style="display:none;" id="searchbtn" href="#">SEARCH SPEAKEASY STARS</a>
 {if $templateconf.txtmobileurl}
 <a class="topiconlink" href="{$templateconf.txtmobileurl}">{$templateconf.txtmobile|@strtoupper}</a>
 {elseif $root.page_attr[0].mobileswap}
 <a class="topiconlink" href="{include file="$spath/general/pg_index.tpl" mobile=1}">{$templateconf.txtmobile|@strtoupper}</a>
 </div>
-<td>
+
 <div style="display:inline;">
 
 <img src="images/icons/mobileicon.png" border="0" class="topicon">

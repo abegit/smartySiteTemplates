@@ -15,30 +15,20 @@
 <div class="item"></div>
 <div class="item"></div>
 <div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
 </div>
-<style type="text/css">
+
+
+<script>
 {literal}
-.iosSlider .slider .item1 {background: url('http://www.drsusanblock.tv/galleries/features-1.png') no-repeat 0 0; }
-.iosSlider .slider .item2 {background: url('http://www.drsusanblock.tv/galleries/features-2.png') no-repeat 0 0; }
-.iosSlider .slider .item3 {background: url('http://www.drsusanblock.tv/galleries/features-3.png') no-repeat 0 0; }
-.iosSlider .slider .item4 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_1.jpg') no-repeat 0 0; }
-.iosSlider .slider .item5 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_2.jpg') no-repeat 0 0; }
-.iosSlider .slider .item6 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_3.jpg') no-repeat 0 0; }
-.iosSlider .slider .item7 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_4.jpg') no-repeat 0 0; }
-.iosSlider .slider .item8 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_5.jpg') no-repeat 0 0; }
-.iosSlider .slider .item9 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_6.jpg') no-repeat 0 0; }
-.iosSlider .slider .item10 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_7.jpg') no-repeat 0 0; }
-.iosSlider .slider .item11 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_8.jpg') no-repeat 0 0; }
-.iosSlider .slider .item12 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_9.jpg') no-repeat 0 0; }
-.iosSlider .slider .item13 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_10.jpg') no-repeat 0 0; }
-.iosSlider .slider .item14 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_11.jpg') no-repeat 0 0; }
-.iosSlider .slider .item15 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_12.jpg') no-repeat 0 0; }
-.iosSlider .slider .item16 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_13.jpg') no-repeat 0 0; }
-.iosSlider .slider .item17 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_14.jpg') no-repeat 0 0; }
-.iosSlider .slider .item18 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_15.jpg') no-repeat 0 0; }
-.iosSlider .slider .item19 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_16.jpg') no-repeat 0 0; }
+var index;
+var picURLS = ["http://www.drsusanblock.tv/galleries/20111231_NewYear_1.jpg", "http://www.drsusanblock.tv/galleries/20111231_NewYear_2.jpg", "http://www.drsusanblock.tv/galleries/20111231_NewYear_3.jpg", "http://www.drsusanblock.tv/galleries/20111231_NewYear_4.jpg", "http://www.drsusanblock.tv/galleries/20111231_NewYear_5.jpg", "http://www.drsusanblock.tv/galleries/20111231_NewYear_6.jpg", "http://www.drsusanblock.tv/galleries/20111231_NewYear_7.jpg", "http://www.drsusanblock.tv/galleries/20111231_NewYear_8.jpg", "http://www.drsusanblock.tv/galleries/20111231_NewYear_9.jpg", "http://www.drsusanblock.tv/galleries/20111231_NewYear_10.jpg", "http://www.drsusanblock.tv/galleries/20111231_NewYear_11.jpg", "http://www.drsusanblock.tv/galleries/20111231_NewYear_12.jpg", "http://www.drsusanblock.tv/galleries/20111231_NewYear_13.jpg", "http://www.drsusanblock.tv/galleries/20111231_NewYear_14.jpg", "http://www.drsusanblock.tv/galleries/20111231_NewYear_15.jpg", "http://www.drsusanblock.tv/galleries/20111231_NewYear_16.jpg",
+];
+document.write('<style>');
+for (index = 0; index < picURLS.length; ++index) {
+	var currentIndex = index + 1;
+    console.log(picURLS[index]);
+	document.write('.iosSlider .slider .item'+ currentIndex +' {background: url("'+picURLS[index]+'") no-repeat 0 0; }')
+}
+document.write('</style>');
 {/literal}
-</style>
+</script>

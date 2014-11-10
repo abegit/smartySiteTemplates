@@ -48,7 +48,7 @@
 	{/if}
 	<div cellpadding="0" cellspacing="0" border="0">
 <div class="subtitle">{$templateconf.txtratethismodel}</div>
-/div>
+</div>
 <!--Allow User Rating-->
 {strip}
 {if !isset($root.page.trial)}
