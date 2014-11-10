@@ -39,12 +39,12 @@
 	 {/foreach}
 
 	{if isset($setIdmatch) }
-		<img class="thumbs" 
+		<img data-canvas-image class="thumbs" 
 			{if $pInfo.Width > 0}width="{$pInfo.Width}"{/if}
 			{if $pInfo.Height > 0}height="{$pInfo.Height}"{/if}
 			src="{$cdir}/contentthumbs/{$setIdmatch}-set.jpg"/>
 	{else}
-		<img class="thumbs" src="/commons/no-photo.png"/>
+		<img data-canvas-image class="thumbs" src="/commons/no-photo.png"/>
 	{/if}
 	<div cellpadding="0" cellspacing="0" border="0">
 <div class="subtitle">{$templateconf.txtratethismodel}</div>

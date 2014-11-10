@@ -34,7 +34,7 @@
 <li><a href="./" {if $item=='home' } class="hilite" {/if} >Home</a></li>
 
 
-<li><a href="pages.php?id=drsuzytv2" {if $item=='drsuzytv' } class="hilite" {/if} >LIVE</a></li>
+<li><a href="pages.php?id=listen" {if $item=='listen' } class="hilite" {/if} >LIVE</a></li>
 
 
 {if isset($episodesCat)}
@@ -143,63 +143,12 @@ target="_blank"><img class="statcounter"
 src="https://c.statcounter.com/8070905/0/91b71359/1/"
 alt="web statistics"></a></div></noscript>
 <!-- End of StatCounter Code for Default Guide -->
-		
+
 		<!-- JS -->
 		<script src="js/jquery-1.js"></script>
 		
 		<!-- iosSlider plugin -->
 		<script src="js/script.js"></script>
-		
-<script>
-{literal}
-var braek = jQuery.noConflict();
-braek(document).ready(function() {
-				
-	var arrayOfImages = new Array();
-	var bufferDistance = 4;
-
-	braek('.iosSlider').iosSlider({
-		snapToChildren: true,
-		desktopClickDrag: true,
-		autoSlide: true,
-		autoSlideTimer: 4000,
-		autoSlideTransTimer: 2000,
-		autoSlideHoverPause: false,
-		infiniteSlider: true,
-		navNextSelector: "span.prev",
-		navPrevSelector: "span.next",
-		onSlideChange: function(args) {
-			
-			braek('.item:eq(' + (args.currentSlideNumber + bufferDistance - 2) + ')').addClass('item' + (args.currentSlideNumber + bufferDistance - 1));
-			
-		}
-	});
-}); 
-		
-{/literal}
-</script>
-<script>
-{literal}
-var braekon = jQuery.noConflict();
-braekon(document).ready(function() {
-	/** Splash page stuff **/
-	braekon(window).load(function() {
-		// When clicking on the button close or the mask layer the popup closed
-		braekon('a#searchbtn').click(function() { 
-			var X=braekon(this).attr('closed');
-		      if(X==1){
-		        braekon("#advsearch").hide();
-		        braekon(this).attr('closed', '0');
-		      } else {
-		        braekon("#advsearch").show();
-		        braekon(this).attr('closed', '1');
-		      }
-			return false;
-		});
-	});
-});
-{/literal}
-</script>
 </body>
 </html>
 {/strip}

@@ -26,7 +26,7 @@
 
 
 <div cellspacing="2" cellpadding="2" border="0" class="modelset">
-<div>
+<div class="star_profile">
 	<div valign="top" align="center" class="avi">
 	<!--Model Thumbnail-->
 
@@ -39,12 +39,12 @@
 	 {/foreach}
 
 	{if isset($setIdmatch) }
-		<img class="thumbs" 
+		<img class="profile" 
 			{if $pInfo.Width > 0}width="{$pInfo.Width}"{/if}
 			{if $pInfo.Height > 0}height="{$pInfo.Height}"{/if}
 			src="{$cdir}/contentthumbs/{$setIdmatch}-set.jpg"/>
 	{else}
-		<img class="thumbs" src="/commons/no-photo.png"/>
+		<img class="profile" src="/commons/no-photo.png"/>
 	{/if}
 	<div cellpadding="0" cellspacing="0" border="0">
 <div class="subtitle">{$templateconf.txtratethismodel}</div>
@@ -94,8 +94,7 @@
 
 
 </div>
-</div>
-	<div align="left" valign="top" class="desc">
+<div align="left" valign="top" class="star_bio">
 
 
 
@@ -164,9 +163,12 @@
 {$templateconf.txtepisodebloggamy}&nbsp;<a href="{$item.extrafields.bloggamy5url[0]}" target="_blank">{$item.extrafields.bloggamy5[0]}</a><br />
 {/if}
 
-<span>
+</span>
 
 </div>
+
+</div>
+	
 
 <div align="right" class="sponsor">
 
@@ -178,9 +180,6 @@
 
 </div>
 
-</div>
-</div>
-	
 
 {/if}
 
@@ -191,7 +190,6 @@
 <!--Updates Title-->
 <div class="title_bar">{$templateconf.txtupdatesfeaturing}&nbsp;{$root.page.results.modelname[0]}</div>
 
-</div>
 
 
 
@@ -236,13 +234,14 @@
 {/if}
 
 
-</div>
 
 {else} {** if $root.page.models.model|@count **}
 
 Model does not exist.
 
 {/if} {** if $root.page.models.model|@count **}
+
+</div>
 
 </div>
 <!--Footer-->
