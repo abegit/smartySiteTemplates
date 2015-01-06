@@ -10,3 +10,14 @@ This README is basically a brief of what Abe did to organize the the (CSS) styli
 ### Who do I talk to? ###
 
 * Repo maintained by Bonobo Designs.
+
+### Contents ###
+
+#### main ####
+- non-members smarty template
+
+#### smarty0 ####
+- members smarty template
+
+#### rootfiles ####
+- includes for this frontend
