@@ -1,44 +1,34 @@
 <div style="position: relative; cursor: move; width: 23552px; left: -23552px;" class="slider">
-<div class="item item1"></div>
-<div class="item item2"></div>
-<a href="pages.php?id=listen" class="item item3"></a>
-<div class="item item4"></div>
-<div class="item item5"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
-<div class="item"></div>
+<a href="pages.php?id=join" class="item item1"></a>
+<a href="pages.php?id=join" class="item item2"></a>
+<a href="pages.php?id=join" class="item item3"></a>
+<a href="pages.php?id=join" class="item item4"></a>
+<a href="pages.php?id=join" class="item item5"></a>
+<a href="pages.php?id=join" class="item"></a>
+<a href="pages.php?id=join" class="item"></a>
+<a href="pages.php?id=join" class="item"></a>
+<a href="pages.php?id=join" class="item"></a>
+<a href="pages.php?id=join" class="item"></a>
+<a href="pages.php?id=join" class="item"></a>
+<a href="pages.php?id=join" class="item"></a>
+<a href="pages.php?id=join" class="item"></a>
+<a href="pages.php?id=join" class="item"></a>
+<a href="pages.php?id=join" class="item"></a>
+<a href="pages.php?id=join" class="item"></a>
 </div>
-<style type="text/css">
+
+
+<script>
 {literal}
-.iosSlider .slider .item1 {background: url('http://www.drsusanblock.tv/galleries/features-1.png') no-repeat 0 0; }
-.iosSlider .slider .item2 {background: url('http://www.drsusanblock.tv/galleries/features-2.png') no-repeat 0 0; }
-.iosSlider .slider .item3 {background: url('http://www.drsusanblock.tv/galleries/features-3.png') no-repeat 0 0; }
-.iosSlider .slider .item4 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_1.jpg') no-repeat 0 0; }
-.iosSlider .slider .item5 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_2.jpg') no-repeat 0 0; }
-.iosSlider .slider .item6 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_3.jpg') no-repeat 0 0; }
-.iosSlider .slider .item7 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_4.jpg') no-repeat 0 0; }
-.iosSlider .slider .item8 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_5.jpg') no-repeat 0 0; }
-.iosSlider .slider .item9 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_6.jpg') no-repeat 0 0; }
-.iosSlider .slider .item10 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_7.jpg') no-repeat 0 0; }
-.iosSlider .slider .item11 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_8.jpg') no-repeat 0 0; }
-.iosSlider .slider .item12 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_9.jpg') no-repeat 0 0; }
-.iosSlider .slider .item13 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_10.jpg') no-repeat 0 0; }
-.iosSlider .slider .item14 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_11.jpg') no-repeat 0 0; }
-.iosSlider .slider .item15 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_12.jpg') no-repeat 0 0; }
-.iosSlider .slider .item16 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_13.jpg') no-repeat 0 0; }
-.iosSlider .slider .item17 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_14.jpg') no-repeat 0 0; }
-.iosSlider .slider .item18 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_15.jpg') no-repeat 0 0; }
-.iosSlider .slider .item19 {background: url('http://www.drsusanblock.tv/galleries/20111231_NewYear_16.jpg') no-repeat 0 0; }
+var index;
+var picURLS = ["http://drsusanblock.tv/galleries/features-1.png", "http://drsusanblock.tv/galleries/features-2.png", "http://drsusanblock.tv/galleries/features-3.png", "http://drsusanblock.tv/galleries/20111231_NewYear_4.jpg", "http://drsusanblock.tv/galleries/20111231_NewYear_5.jpg", "http://drsusanblock.tv/galleries/20111231_NewYear_6.jpg", "http://drsusanblock.tv/galleries/20111231_NewYear_7.jpg", "http://drsusanblock.tv/galleries/20111231_NewYear_8.jpg", "http://drsusanblock.tv/galleries/20111231_NewYear_9.jpg", "http://drsusanblock.tv/galleries/20111231_NewYear_10.jpg", "http://drsusanblock.tv/galleries/20111231_NewYear_11.jpg", "http://drsusanblock.tv/galleries/20111231_NewYear_12.jpg", "http://drsusanblock.tv/galleries/20111231_NewYear_13.jpg", "http://drsusanblock.tv/galleries/20111231_NewYear_14.jpg", "http://drsusanblock.tv/galleries/20111231_NewYear_15.jpg", "http://drsusanblock.tv/galleries/20111231_NewYear_16.jpg",
+];
+document.write('<style>');
+for (index = 0; index < picURLS.length; ++index) {
+	var currentIndex = index + 1;
+    console.log(picURLS[index]);
+	document.write('.iosSlider .slider .item'+ currentIndex +' {background: url("'+picURLS[index]+'") no-repeat 0 0; }')
+}
+document.write('</style>');
 {/literal}
-</style>
+</script>

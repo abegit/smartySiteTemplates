@@ -28,21 +28,11 @@
 
 <div style="position: relative; top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 1024px; height: 540px;" class="iosSlider">
 				
-					{include file="$spath/sliders/29.tpl"}
-			
-			</div>
+					{include file="$spath/sliders/1.tpl"}
+</div>
 <div id="sliderNav"><span class="next">Next</span>
 <span class="prev"> Prev</span>
 </div>
-
-
-<!-- <div id="slideshow" style="background: #333; display:block;overflow:hidden; position:relative; z-index:30;">
-	
-{include file="$spath/sliders/24.tpl"}
-</div> -->
-
-
-
 
 {/if}
 
@@ -67,7 +57,7 @@
 
 <table width="100%" cellpadding="2" cellspacing="0">
 <tr>
-<td valign="top" width="100%">
+<td valign="top" width="100%" class="lefty">
 <!--Left Column-->
 
 
@@ -293,7 +283,7 @@
 {include file="$spath/general/toplist_updates.tpl"}
 {/if}
 
-
+<a href="http://www.live.drsusanblock.com/" targer="_new"><img src="http://banners.videosecrets.com/assets/animated/generic-g-02122015-eml-160x600-005.gif" width="160" height="600" style="margin-top:20px;" border="0" /><br /><p style="font-size:small">Click Here to Start Chatting</font></a>
 
 
 </td>
@@ -302,7 +292,8 @@
 </table>
 
 
-
+<a href="http://www.live.drsusanblock.com/" target="_new">
+<img src="http://banners.videosecrets.com/assets/animated/generic-g-02122015-eml-900x120-003.gif" width="750" height="auto" alt="Chat Now! It's Not Cheating It's Webcams" border="0"/></a>
 
 
 

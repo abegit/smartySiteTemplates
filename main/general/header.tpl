@@ -2,7 +2,25 @@
 
 <a href="./">	<img src="http://drsusanblock.tv/main/images/drsusanblocktv.png" style="width: 300px; float:left;" height="57" width="300"></a>
 
+<div id="mask">
+	<div class="center">
+		<div class="bouncywrap">
 
+        <div class="dotcon dc1">
+        <div class="dot"></div>
+        </div>
+    
+        <div class="dotcon dc2">
+        <div class="dot"></div>
+        </div>
+    
+        <div class="dotcon dc3">
+        <div class="dot"></div>
+        </div>
+ 
+  </div>
+</div>
+	</div>
 
 
 <ul class="quicknav">

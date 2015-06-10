@@ -1,8 +1,7 @@
 <div id="bg">
-<h3>Sign Up for a Prescription Today!</h3>
-
-
-        <table width="900" border="0">
+	<div id="join">
+<div class="title_bar">Sign Up to Get Access to 236 Full Length Movies & 1000s of Erotic Photos</div>
+        <table border="0">
            <tr>
              <td>
              
@@ -70,9 +69,10 @@
 </div>
 
 </form>
-<div style="float: right; border-radius: 3px; background: none repeat scroll 0px 0px rgb(239, 239, 239); margin-right: 12px; padding: 10px; font-size: 14px; width: 630px;"><a href="http://bonoboville.com/signup" style="display: inline-block; border-radius: 6px; cursor: pointer; background: none repeat scroll 0px 0px rgb(0, 143, 0); box-shadow: 0px -2px 0px rgb(6, 175, 15) inset; border: 2px solid rgb(6, 175, 15); color: rgb(255, 255, 255); font-weight: 900; font-size: 24px; margin-left: 20px; padding: 5px 28px; float: right;">CLICK HERE TO JOIN</a>
+<div style="float: right; border-radius: 3px; background: none repeat scroll 0px 0px rgb(239, 239, 239); margin-right: 12px; padding: 10px; font-size: 14px; width: 630px;"><button onClick="location.href='http://bonoboville.com/?friend=288'" style="display: inline-block; border-radius: 6px; cursor: pointer; background: none repeat scroll 0px 0px rgb(0, 143, 0); box-shadow: 0px -2px 0px rgb(6, 175, 15) inset; border: 2px solid rgb(6, 175, 15); color: rgb(255, 255, 255); font-weight: 900; font-size: 24px; margin-left: 20px; padding: 5px 28px; float: right;">CLICK HERE TO JOIN</button>
 <b style="font-size: 24px; display: block;">Or Choose Best Deal!</b>
 <i style="">Proceed with Bonoboville</i></div>
+
 
 
 
@@ -84,6 +84,9 @@
              </td>
           </tr>
         </table>
+        <div class="bg-fade"></div>
+</div> <!-- end join -->
+
 <!--Slider Code-->
 <div style="position: relative; top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 1000px; height: 300px; margin-top:20px;" class="iosSlider">
 					{include file="$spath/sliders/29.tpl"}			
@@ -232,3 +235,11 @@
 
  </div>
 
+<script>	
+{literal}
+var joinFX = jQuery.noConflict();
+joinFX(window).load(function() {
+    joinFX('.bg-fade').addClass('init');
+});
+{/literal}
+</script>

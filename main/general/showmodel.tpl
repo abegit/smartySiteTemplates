@@ -72,5 +72,5 @@ Double tap the picture view this model.
 
 
 {else}
- <img src="images/p{$priority}.jpg" />
+ <img src="/main/images/p16.jpg" />
 {/if}

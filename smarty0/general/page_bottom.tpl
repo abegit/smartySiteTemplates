@@ -1,10 +1,10 @@
-{strip}
+
 <span id="footer">
 
 <div class="info">
 
 	<img src="http://drsusanblock.tv/main/images/drsusanblocktv.png" style="width: 180px; float:left;" height="34" width="180">
-
+{strip}
 <ul class="quicknav">
 {foreach from=$categories item=cat}
 {foreach from=$cat.cats.cat item=cat2 }
@@ -53,7 +53,7 @@
 
 <!-- <li><a href="pages.php?id=listen" {if $item=='listen' } class="hilite" {/if} ><i class="bono-radio2"></i>Listen</a></li> --></ul>
 </div>
-
+{/strip}
 
 
 <div class="totals">
@@ -151,4 +151,3 @@ alt="web statistics"></a></div></noscript>
 		<script src="js/script.js"></script>
 </body>
 </html>
-{/strip}

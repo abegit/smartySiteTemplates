@@ -230,27 +230,6 @@ html, body{
   50% {transform: translateX(0px);}
   100% {transform: translateX(-40px);}
 }
-
-.login-popup {
-	line-height:18px;
-	color:#000000;
-	width:740px;
-	padding:0;
-	min-height:588px;
-	background: #4B4B4B;
-	padding:0; 	
-	float: left;
-	text-align:center;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	z-index: 99999;
-	box-shadow: 0 0px 15px rgba(0,0,0,0.4);
-	-moz-box-shadow: 0 0px 15px rgba(0,0,0,0.4);
-	-webkit-box-shadow: 0 0px 15px rgba(0,0,0,0.4);
-	margin-top: -306px;
-	margin-left: -382px;
-}
 {/literal}
 </style>
 

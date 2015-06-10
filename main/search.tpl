@@ -13,7 +13,7 @@
 {if isset($root.page.results.result)}
 
 
-<div style="width:100%;float:right;">
+<div style="width:100%; ">
 <!--Title-->
 <div class="title_bar">{$templateconf.txtsearchresultsfor}
 

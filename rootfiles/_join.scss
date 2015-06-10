@@ -1,36 +1,74 @@
 /* Join Page */
 
-.fineprint{font-weight:normal;font-size:9px; padding-left: 20px; }
+.fineprint{font-weight:normal;font-size:9px; }
 
-#wrap { width: 980px; color: #000; }
+/*#bg {background:#222;}*/
+#bg .bg-fade { /*background: rgba(0, 0, 0, 0) url("http://drsusanblock.tv/galleries/dsbtv-join.jpg") repeat scroll center center / cover ;*/ display: block; height: 100%; left: 0; opacity: 0; pointer-events:none; position: absolute; right: 0; top: 0; width: 100%; z-index: 1; @include trans(600ms);
+&.init {opacity: 1;}
+}
+#join > table {width: 100%;z-index: 2; position: relative;}
+#wrap { width: 980px; color: #000;  margin:0 auto;}
 #left { width: 980px; float:left; display:inline; }
 #left #head { padding: 11px 0; background: #1b1b1b; margin: 0 0 3px 0;  }
 #left .save75 #head { background: url(http://img1.mxn.com/images/join-head.gif) no-repeat 300px 12px #1b1b1b; }
 #left #head h1 { background: url(http://img1.mxn.com/images/join/logo.gif) no-repeat; width: 288px; height: 117px; text-indent: -9999px; margin: 0 0 0 15px; }
 #left #head #secure { background: url(http://img1.mxn.com/images/join/secure.gif) no-repeat; width: 386px; height: 63px; float:right; margin: 21px 27px 0 0; display: inline; }
-#left h2 { background: url(images/join_bar.jpg) no-repeat 0 0; height: 30px; color: #fff; font-weight: bold; font-size: 16px; padding: 9px 0 0 30px; margin-bottom: 10px; }
-#left .right h2 { border-right: 1px solid #000000; }
+#left h2 {color: #fff; font-size: 16px; font-weight: bold; margin-bottom: 0; padding: 0 30px; }
 #left h2 span { color: #cc0000; }
-#form { /*height: 650px;*/ -moz-box-shadow: 0 0 5px #000; -webkit-box-shadow: 0 0 4px #ccc; margin: 0 0 3px 0; min-height: 350px; }
+#form { /*height: 650px;*/ 
+	&> form {background: #5f5f5f none repeat scroll 0 0; @include box-shadow(0 0 7px #bdbdbd); @include border-radius(5px); margin: 10px 0; 
+	    display: table;
+	    @include border-radius(5px);
+	    overflow: hidden;
+	    &> div {display: table-cell !important;
+		    float: none !important;
+		    height: 100% !important;
+		}
+	}
+} /*end form*/
 #form .left { width: 320px; float:left; display:inline; }
 #form .left2 { width: 320px; float:left; display:inline; position: relative; }
 #form .right { width: 340px; float:left; display:inline; position: relative; }
 #form .right img.save75gif { position: absolute; top: 48px; right: 32px; }
-#form input.txt { border: 0px; background: url(images/join_label.png) no-repeat 0 0; width: 242px; padding: 10px; -moz-border-radius: 6px;  -webkit-border-radius: 6px; border-radius: 6px; font-weight: bold; font-size:12px; color: #000000; }
-#form p { padding: 20px 30px 0 30px; }
-#form label { display: block; font-weight: bold; font-size: 14px; padding: 0 0 1px 0; color:#bc0000; }
-#form .rdo { padding: 20px 30px;  }
-#form .rdo label { background: url(images/join_label.png) no-repeat 0 0; padding: 10px; margin-bottom: 3px;  -moz-border-radius: 6px;  -webkit-border-radius: 6px; border-radius: 6px; cursor:pointer; font-weight: normal; color: #000000; }
+#form input.txt {
+			background: #dfdfdf;
+		    @include border-radius(6px);
+		    @include trans(100ms);
+		    border: 3px solid rgba(0, 0, 0, 0);
+		    font-family: Lora;
+		    font-size: 1.2rem;
+		    font-weight: bold; font-size:12px; color: #000000;
+		    margin-right: 0;
+		    width: 242px; padding: 10px;
+			&[type=text], &[type=password] {width: 100%; margin-right: 0; @include border-box;padding: 10px !important;}
+			&[type=file] {border: 2px dashed #9d9d9d; margin-bottom: 10px; cursor: pointer;
+				&:hover { border-color:#ddd; }
+			}
+			&:active, &:focus {border-bottom: 3px solid #dddddd !important; border-left: medium none !important; border-right: medium none !important;
+			}
+			&[type="text"]:hover:not(:focus), &[type="password"]:hover:not(:focus), &[type="textarea"]:hover:not(:focus) {
+				@include box-shadow(0 0 5px -2px #c0c0c0 inset);
+			}
+	  }
+#form {
+	p { padding: 10px 20px 10px 60px; }
+	h2 {background: #404040 none repeat scroll 0 0;
+	    @include box-shadow(0 40px 50px -40px #000000 inset);
+	}
+}
+#form label { display: block; font-weight: bold; font-size: 14px; padding: 0 0 1px 0; color:#cccccc; }
+#form .rdo { padding: 10px; }
+#form .rdo label { background: url(images/join_label.png) no-repeat 0 0; padding: 10px; margin-bottom: 3px;  -moz-border-radius: 6px;  -webkit-border-radius: 6px; border-radius: 6px; cursor:pointer; font-weight: normal; color: #ffffff; }
 #form .rdo label:hover { background: url(images/join_label_hover.png) no-repeat 0 0; }
 #form .rdo label.active { background: url(images/join_label_select.png) no-repeat 0 0; padding: 8px; color: #ffffff; font-weight: bold; text-shadow: 1px 1px 1px #000; }
 #form .rdo label input { float:left; display:inline; margin: 1px 8px 0 0; }
-#form .right .rdo label input { margin-top: 4px; }
+#form .right .rdo label input { margin-top: 4px; } 
 
 #form .eu_billing { margin: 0 0 20px 30px; }
 
 .ie_all #form .rdo label input { float:left; display:inline; margin: 0 8px 0 0; }
 
-#form .right .rdo label { font-size: 16px; }
+#form .right .rdo label { font-size: 16px; text-align: left; }
 #form .right .rdo label span.price { float:right; }
 #form .right .rdo label span.price span { font-size: 11px; padding-left: 2px; }
 #form .right .rdo label span.value { background: url(http://img1.mxn.com/images/join/special.gif) no-repeat 0 0; padding: 4px 25px 3px 24px; font-size: 10px; float:right; }

@@ -28,7 +28,7 @@
 
 <div style="position: relative; top: 0px; left: 0px; overflow: hidden; z-index: 1; width: 1024px; height: 540px;" class="iosSlider">
 				
-					{include file="$spath/sliders/29.tpl"}
+					{include file="$spath/sliders/26.tpl"}
 			
 			</div>
 <div id="sliderNav"><span class="next">Next</span>
@@ -67,7 +67,7 @@
 
 <table width="100%" cellpadding="2" cellspacing="0">
 <tr>
-<td valign="top" width="100%">
+<td valign="top" width="100%" class="lefty">
 <!--Left Column-->
 
 

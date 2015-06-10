@@ -16,8 +16,6 @@
 <td valign="top" width="100%">
 <!--Left Column-->
 
-<!--Title-->
-<div class="title_bar">{$root.page.content.item[0].Title[0]}</div>
 
 
 {assign var="item" value=$root.page.content.item[0]}

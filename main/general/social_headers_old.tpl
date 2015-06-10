@@ -172,12 +172,17 @@
   <meta property="og:image" content="{$areaurl}content/contentthumbs/{$item_attr.Id}.{$item_attr.Extension}" />
 {/if}
 
-
-<meta name="twitter:image0" content="http://www.drsusanblock.tv/main/twitter/0.jpg" />
-<meta name="twitter:image1" content="http://www.drsusanblock.tv/main/twitter/1.jpg" />
-<meta name="twitter:image2" content="http://www.drsusanblock.tv/main/twitter/2.jpg" />
-<meta name="twitter:image3" content="http://www.drsusanblock.tv/main/twitter/3.jpg" />
-
+{assign var="cnt" value=0}
+{foreach from=$image_list item="image" key=kex}
+  {if $cnt < $maxcount}
+    {if $maxcount > 1}
+    	<meta name="twitter:image{$kex}" content="{$image}" />
+    {else}
+	    <meta name="twitter:image" content="{$image}" />
+    {/if}
+  {/if}
+  {assign var="cnt" value=$cnt+1}
+{/foreach}
 
 <meta property="og:description" content="Tune In Live Every SATURDAY Night @ 10:30 PM California Time to watch the Most Unique, Uncensored, and Unscripted Show of All-Time on DrSuzy.tv! "/>
 

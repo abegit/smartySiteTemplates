@@ -337,7 +337,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 
 <td align="right">
 
-<div style="display:inline;"><a class="topiconlink hilite" style="display:none;" id="searchbtn" href="#">SEARCH SPEAKEASY STARS</a>
+<div style="display:inline;"><a class="topiconlink hilite" id="searchbtn" href="#">SEARCH SPEAKEASY STARS</a>
 {if $templateconf.txtmobileurl}
 <a class="topiconlink" href="{$templateconf.txtmobileurl}">{$templateconf.txtmobile|@strtoupper}</a>
 {elseif $root.page_attr[0].mobileswap}
@@ -362,10 +362,11 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga
 </div>
 
 <div class="body">
-	<div id="advsearch" style="display:none; z-index:999;position:absolute">
-	
-	    <div class="login-popup" style=":100px;width:100%;background:black;">
-{include file="search/advancedsearch_box.tpl"}
+	<div class="popup_wrapper" id="advsearch" style="display:none;">
+	<div class="popup">
+	    	<div class="header">Advanced Search <a href="#" id="close">Close</a></div>
+    	{include file="$spath/general/toplist_models.tpl"}
+		{include file="search/advancedsearch_box.tpl"}
 
-	    </div>		
-	</div>
+	    </div>	
+</div>
